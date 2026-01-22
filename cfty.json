@@ -55,6 +55,14 @@
             "changeable": 1
         },
         {
+            "key": "喵喵",
+            "name": "天扬喵TV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/喵TV.json"
+        },
+        {
             "key": "哈基米",
             "name": "🚵基米┃APP",
             "type": 3,
