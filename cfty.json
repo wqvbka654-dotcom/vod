@@ -218,6 +218,18 @@
             }
         },
         {
+            "key": "全能短剧",
+            "name": "😒短剧┃AI¹",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
+            }
+        },
+        {
             "key": "星之阁短剧AI",
             "name": "短剧┃AI²",
             "type": 3,
