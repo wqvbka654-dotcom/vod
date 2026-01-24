@@ -1,5 +1,5 @@
 {
-    "spider": "http://rihou.cc:88/jar/vox.jar",
+    "spider": "./jar/vox.jar",
     "notice": "细节决定专业，实用才是王道！---天扬",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
@@ -230,7 +230,7 @@
         },
         {
             "key": "全能短剧",
-            "name": "😒短剧┃AI¹",
+            "name": "短剧┃AI¹",
             "type": 3,
             "api": "csp_DuanJuCen",
             "searchable": 1,
@@ -253,75 +253,96 @@
             }
         },
         {
-            "key": "csp_Bili",
+            "key": "bilimd",
+            "name": "🅱️哔哩┃影视",
+            "type": 3,
+            "api": "csp_BilimdGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "bili",
             "name": "🅱️哔哩┃合集",
             "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/bili.json",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "csp_Biliyy",
-            "name": "🅱️哔哩┃音乐",
-            "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/biliyy.json",
-                "cookie": ""
-            },
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
             "style": {
                 "type": "rect",
-                "ratio": 1.333
-            }
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+            },
+            "timeout": 20
         },
         {
-            "key": "csp_mtv",
-            "name": "🅱️MV┃音乐",
+            "key": "biliych",
+            "name": "🅱️哔哩┃歌曲",
             "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/mtv.json",
-                "cookie": ""
-            },
+            "api": "csp_BiliGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
             "style": {
                 "type": "rect",
-                "ratio": 1.333
-            }
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
+            },
+            "timeout": 20
         },
         {
-            "key": "csp_bilirt",
-            "name": "🅱️儿童┃最爱",
+            "key": "bilixs",
+            "name": "🅱️哔哩┃相声",
             "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/bilirt.json",
-                "cookie": ""
-            },
+            "api": "csp_BiliGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
             "style": {
                 "type": "rect",
-                "ratio": 1.333
-            }
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
+            },
+            "timeout": 20
         },
         {
-            "key": "csp_bilims",
-            "name": "🅱️最爱┃美食",
+            "key": "bilixp",
+            "name": "🅱️哔哩┃小品",
             "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/bilims.json",
-                "cookie": ""
-            },
+            "api": "csp_BiliGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
             "style": {
                 "type": "rect",
-                "ratio": 1.333
-            }
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
+            },
+            "timeout": 20
         },
         {
             "key": "csp_ShuaiJiao",
@@ -335,13 +356,34 @@
             }
         },
         {
-            "key": "csp_Config",
-            "name": "天扬配制中心",
+            "key": "虎牙直播",
+            "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "csp_Config",
+            "api": "csp_HuyaGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://igdux.top/~ook",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "配置中心",
+            "name": "🅱️哔哩登陆",
+            "type": 3,
+            "api": "csp_ConfigGuard",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./jar/cfty.jar"
+            "indexs": 0,
+            "jar": "https://igdux.top/~ook",
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
         }
     ],
     "doh": [
