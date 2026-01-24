@@ -74,6 +74,19 @@
             "changeable": 1
         },
         {
+            "key": "永恒视频",
+            "name": "🐁永恒┃APP",
+            "type": 3,
+            "api": "csp_Hmys",
+            "ext": {
+                "host": "https://dy.oogsy.com",
+                "app_id": "yongheng",
+                "deviceid": "92ec8baead8e788b",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
+            }
+        },
+        {
             "key": "哈基米",
             "name": "🚵基米┃APP",
             "type": 3,
@@ -178,16 +191,27 @@
             }
         },
         {
-            "key": "影视",
-            "name": "😡影视┃APP",
+            "key": "追剧达人",
+            "name": "🦁达人┃APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "datakey": "AAdgrdghjfgswerA",
-                "api": 2
+                "host": "https://dtqj1.gg1080.com/dtjp.txt",
+                "datakey": "kecbio48dsq131ed",
+                "api": "2"
+            }
+        },
+        {
+            "key": "王某某影视",
+            "name": "🎈王某┃APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+                "datakey": "88689667dce61725"
             }
         },
         {
@@ -202,19 +226,6 @@
                 "ua": "okhttp/3.10.0",
                 "datakey": "seb5tq9mykp2w9ry",
                 "api": 2
-            }
-        },
-        {
-            "key": "永恒视频",
-            "name": "🐁永恒┃APP",
-            "type": 3,
-            "api": "csp_Hmys",
-            "ext": {
-                "host": "https://dy.oogsy.com",
-                "app_id": "yongheng",
-                "deviceid": "92ec8baead8e788b",
-                "versionCode": "10000",
-                "UMENG_CHANNEL": "zhuan"
             }
         },
         {
