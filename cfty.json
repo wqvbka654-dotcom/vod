@@ -96,6 +96,13 @@
             "changeable": 1
         },
         {
+            "key": "drpy2_金牌影院",
+            "name": "金牌影视js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
+        },
+        {
             "key": "永恒视频",
             "name": "🐁永恒┃APP",
             "type": 3,
@@ -139,19 +146,6 @@
             }
         },
         {
-            "key": "金牌影院",
-            "name": "🥇金牌┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "datakey": "kecbio48dsq131ed",
-                "api": "2"
-            }
-        },
-        {
             "key": "天峰影视",
             "name": "⛰️天峰┃APP",
             "type": 3,
@@ -174,19 +168,6 @@
                 "host": "https://ios.hgyx.vip",
                 "datakey": "062dec75d039980e",
                 "ua": "Dart/3.5 (dart:io)"
-            }
-        },
-        {
-            "key": "仓鼠4K",
-            "name": "🤑仓鼠｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi440.txt",
-                "datakey": "fL7sY4zN4kB3pG4p",
-                "api": 2
             }
         },
         {
