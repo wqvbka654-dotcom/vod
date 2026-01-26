@@ -1,6 +1,6 @@
 {
-    "spider": "./jar/vox.jar",
-    "notice": "细节决定专业，实用才是王道！---天扬",
+    "spider": "http://rihou.cc:88/jar/vox.jar;md5;24ff47b48074c23e8a409da23aa2c0d1",
+    "notice": "细节决定专业，实用才是王道！--天扬",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
         {
@@ -9,6 +9,17 @@
         }
     ],
     "sites": [
+        {
+            "key": "cftyys",
+            "name": "天扬影视列表",
+            "type": 3,
+            "api": "csp_Douban",
+            "jar": "./jar/pmd.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./1.json"
+        },
         {
             "key": "海狗视",
             "name": "天扬河马秒播",
@@ -74,6 +85,17 @@
             "changeable": 1
         },
         {
+            "key": "旺旺",
+            "name": "旺旺视频",
+            "type": 3,
+            "api": "./js/旺旺影视.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
             "key": "永恒视频",
             "name": "🐁永恒┃APP",
             "type": 3,
@@ -124,8 +146,9 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "datakey": "kecbio48dsq131ed",
+                "searchList4": 1,
+                "host": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "datakey": "eecbio48dsq131ee",
                 "api": "2"
             }
         },
@@ -212,20 +235,6 @@
             "ext": {
                 "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
                 "datakey": "88689667dce61725"
-            }
-        },
-        {
-            "key": "花小猪",
-            "name": "🐷小猪┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "ua": "okhttp/3.10.0",
-                "datakey": "seb5tq9mykp2w9ry",
-                "api": 2
             }
         },
         {
