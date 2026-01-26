@@ -96,6 +96,19 @@
             "changeable": 1
         },
         {
+            "key": "牌子",
+            "name": "🥇金牌┃APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "datakey": "eecbio48dsq131ee",
+                "api": "2"
+            }
+        },
+        {
             "key": "drpy2_金牌影院",
             "name": "金牌影视js",
             "type": 3,
