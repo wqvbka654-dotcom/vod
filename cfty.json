@@ -96,15 +96,15 @@
             "changeable": 1
         },
         {
-            "key": "金牌影院6",
-            "name": "📺︎金牌📺︎快",
+            "key": "金牌影院",
+            "name": "🥇金牌┃APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "datakey": "kecbio48dsq131ed",
+                "host": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "datakey": "eecbio48dsq131ee",
                 "api": "2"
             }
         },
