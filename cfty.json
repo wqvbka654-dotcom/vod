@@ -14,7 +14,7 @@
             "name": "天扬影视列表",
             "type": 3,
             "api": "csp_Douban",
-            "jar": "./jar/pmd.jar",
+            "jar": "https://igdux.top/~typmd",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
@@ -114,6 +114,40 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/金牌影视.js"
+        },
+        {
+            "key": "清雨PHP",
+            "name": "🌈清雨┃PHP",
+            "type": 4,
+            "api": "http://rihou.cc:88/php/xpg.php",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "苹果PHP",
+            "name": "🍎苹果┃PHP",
+            "type": 4,
+            "api": "http://rihou.cc:88/php/jsy.php",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "山有木兮",
+            "name": "🏔️山木┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88//js/山有木兮.js"
+        },
+        {
+            "key": "爱看机器人",
+            "name": "🚒爱看",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/爱看机器人.js"
         },
         {
             "key": "永恒视频",
@@ -255,6 +289,15 @@
             }
         },
         {
+            "key": "VOX聚合短剧",
+            "name": "短剧大集合",
+            "type": 3,
+            "api": "csp_JuheShortDrama",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "bilimd",
             "name": "🅱️哔哩┃影视",
             "type": 3,
@@ -372,6 +415,35 @@
                 "ratio": 1.433
             },
             "timeout": 10
+        },
+        {
+            "key": "100听书",
+            "name": "📚100┃听书",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc:88/xb/100听书.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "爱上听书",
+            "name": "📚爱上┃听书",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/爱上听书.js"
+        },
+        {
+            "key": "凤凰FM",
+            "name": "📻凤凰┃FM",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/凤凰FM.js"
+        },
+        {
+            "key": "蜻蜓FM",
+            "name": "📻蜻蜓┃FM",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
         },
         {
             "key": "配置中心",
