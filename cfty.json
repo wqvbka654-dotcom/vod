@@ -298,6 +298,17 @@
             "changeable": 0
         },
         {
+            "key": "kw",
+            "name": "天扬🎶酷我音乐🎶",
+            "type": 3,
+            "api": "./py/kw.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
             "key": "bilimd",
             "name": "🅱️哔哩┃影视",
             "type": 3,
