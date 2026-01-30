@@ -309,6 +309,23 @@
             "changeable": 1
         },
         {
+            "key": "wyy",
+            "name": "🌸网易云|php🌸",
+            "type": 4,
+            "api": "http://vps.9yidc.cn:25555/alger.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "wyy2",
+            "name": "网易云|T4",
+            "type": 4,
+            "api": "http://114.66.51.127:8728/Nathan/wyy.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "bilimd",
             "name": "🅱️哔哩┃影视",
             "type": 3,
