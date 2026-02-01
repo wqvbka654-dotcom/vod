@@ -218,16 +218,6 @@
             }
         },
         {
-            "key": "魔方4K",
-            "name": "🎲魔方┃APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://snysw.xyz/mf4kzs327.txt",
-                "datakey": "1234567887654321"
-            }
-        },
-        {
             "key": "云云",
             "name": "☁️云云┃APP",
             "type": 3,
