@@ -255,21 +255,6 @@
             "changeable": 1
         },
         {
-            "key": "MTV1",
-            "name": "天扬网易云音乐",
-            "jar": "https://igdux.top/~fanyy;md5;adcafc1d4363ae793ddb97068b5116c2",
-            "type": 3,
-            "api": "csp_MusicGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "wyy2",
             "name": "网易云|T4",
             "type": 4,
