@@ -218,6 +218,16 @@
             }
         },
         {
+            "key": "魔方4K",
+            "name": "🎲魔方┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://snysw.xyz/mf4kzs327.txt",
+                "datakey": "1234567887654321"
+            }
+        },
+        {
             "key": "云云",
             "name": "☁️云云┃APP",
             "type": 3,
@@ -280,12 +290,26 @@
         },
         {
             "key": "VOX聚合短剧",
-            "name": "短剧大集合",
+            "name": "🎿聚合┃短剧",
             "type": 3,
             "api": "csp_JuheShortDrama",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
+        },
+        {
+            "key": "爱听音乐",
+            "name": "天扬酷我音乐┃带歌词",
+            "jar": "./jar/kuwo.jar",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "sp": "AiMusic"
+            },
+            "timeout": 10
         },
         {
             "key": "kw",
