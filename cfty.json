@@ -300,12 +300,12 @@
         {
             "key": "爱听音乐",
             "name": "天扬酷我音乐┃带歌词",
-            "jar": "./jar/kuwo.jar",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
+            "jar": "https://igdux.top/~kuwo;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "AiMusic"
             },
