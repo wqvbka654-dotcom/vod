@@ -1,11 +1,11 @@
 {
-    "spider": "http://rihou.cc:88/jar/vox.jar;md5;24ff47b48074c23e8a409da23aa2c0d1",
+    "spider": "http://rihou.cc:88/jar/vox.jar;md5;266e332fa45d4ce8e49f2f383e460868",
     "notice": "细节决定专业，实用才是王道！--天扬",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
         {
-            "name": "",
-            "url": ""
+            "name": "天扬推荐3万部",
+            "url": "http://rihou.cc:88/json/电影3万.txt&&&https://i1.mcobj.com//uploads//20220514_627f51cdc2e2f.png?para=1920x1080"
         }
     ],
     "sites": [
@@ -96,6 +96,14 @@
             "changeable": 1
         },
         {
+            "key": "旺旺影视",
+            "name": "🐶旺旺┃影视xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc:88/xb/旺旺影视.json",
+            "jar": "http://rihou.cc:88/jar/xbpq.jar"
+        },
+        {
             "key": "金牌影院",
             "name": "🥇金牌┃APP",
             "type": 3,
@@ -159,6 +167,71 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "华数",
+            "name": "华数tv",
+            "type": 3,
+            "api": "./py/华数tv.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "茶杯狐",
+            "name": "🦊茶狐┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/茶杯狐.js"
+        },
+        {
+            "key": "月光影视",
+            "name": "🌛月光┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/月光影视.js"
+        },
+        {
+            "key": "耐看",
+            "name": "👀耐看┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/耐看.js"
+        },
+        {
+            "key": "韩剧看看",
+            "name": "🇰🇷韩剧┃看看",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc:88/xb/韩剧看看.json",
+            "jar": "http://rihou.cc:88/jar/xbpq.jar"
+        },
+        {
+            "key": "腾腾",
+            "name": "🐧腾腾┃JX",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/腾腾.js"
+        },
+        {
+            "key": "奇奇",
+            "name": "🐴奇奇┃JX",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/奇奇.js"
+        },
+        {
+            "key": "果果",
+            "name": "🍋果果┃JX",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/果果.js"
+        },
+        {
+            "key": "酷酷",
+            "name": "😎酷酷┃JX",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/酷酷.js"
         },
         {
             "key": "永恒视频",
@@ -232,13 +305,10 @@
             }
         },
         {
-            "key": "VOX聚合短剧",
-            "name": "🎿聚合┃短剧",
+            "key": "聚合短剧",
+            "name": "🐑短剧┃（羊）",
             "type": 3,
-            "api": "csp_JuheShortDrama",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
+            "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
         {
             "key": "爱听音乐",
@@ -274,7 +344,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -290,13 +360,13 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+                "json": "./json/bili.json"
             },
             "timeout": 20
         },
@@ -309,13 +379,13 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
+                "json": "./json/biliyy.json"
             },
             "timeout": 20
         },
@@ -328,13 +398,13 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
+                "json": "./json/bilixs.json"
             },
             "timeout": 20
         },
@@ -347,13 +417,13 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
+                "json": "./json/bilixp.json"
             },
             "timeout": 20
         },
@@ -377,7 +447,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -414,6 +484,14 @@
             "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
         },
         {
+            "key": "直播转点播",
+            "name": "🐼️电视┃直播",
+            "type": 3,
+            "searchable": 0,
+            "api": "http://rihou.cc:88/js/live2vod.js",
+            "ext": "http://rihou.cc:88/json/feimaolive.json"
+        },
+        {
             "key": "配置中心",
             "name": "🅱️哔哩登陆",
             "type": 3,
@@ -421,7 +499,7 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "jar": "https://igdux.top/~ook",
+            "jar": "https://igdux.top/~ook;md5;3496875e56d67f598b377e9646d82844",
             "style": {
                 "type": "rect",
                 "ratio": 1.43
@@ -549,29 +627,41 @@
                 "www.maolvys.com"
             ],
             "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+                "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
             ]
-        }
-    ],
-    "parses": [
-        {
-            "name": "Json聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
-            "name": "Web聚合",
-            "type": 3,
-            "url": "Web"
-        },
-        {
-            "name": "自定义解析名称",
-            "type": 1,
-            "url": "自定义解析链接"
         }
     ],
     "headers": [],
     "hosts": [],
+    "parses": [
+        {
+            "name": "测试解析",
+            "type": 1,
+            "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
+        },
+        {
+            "name": "手动解析",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"
+                }
+            }
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ],
     "ads": [
         "static-mozai.4gtv.tv",
         "s3t3d2y8.afcdn.net"
