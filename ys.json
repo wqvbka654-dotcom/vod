@@ -4,8 +4,8 @@
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
         {
-            "name": "天扬推荐3万部",
-            "url": "http://rihou.cc:88/json/电影3万.txt"
+            "name": "天扬热播剧场",
+            "url": "http://rihou.cc:88/json/热播.m3u"
         }
     ],
     "sites": [
@@ -311,6 +311,25 @@
             "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
         {
+            "key": "直播转点播",
+            "name": "天扬万部点播",
+            "type": 3,
+            "searchable": 0,
+            "api": "./js/live2vod.js",
+            "ext": "./json/feimaolive.json"
+        },
+        {
+            "key": "一万部",
+            "name": "天扬万部搜索",
+            "api": "csp_FileSpider",
+            "type": "3",
+            "jar": "./jar/tu.jar",
+            "ext": "http://rihou.cc:88/json/热播.m3u",
+            "searchable": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
             "key": "爱听音乐",
             "name": "天扬酷我音乐┃带歌词",
             "type": 3,
@@ -482,14 +501,6 @@
             "type": 3,
             "api": "http://rihou.cc:88/js/drpy2.min.js",
             "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
-        },
-        {
-            "key": "直播转点播",
-            "name": "🐼️电视┃直播",
-            "type": 3,
-            "searchable": 0,
-            "api": "http://rihou.cc:88/js/live2vod.js",
-            "ext": "http://rihou.cc:88/json/feimaolive.json"
         },
         {
             "key": "配置中心",
