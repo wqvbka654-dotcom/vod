@@ -1,11 +1,11 @@
 {
-    "spider": "./jar/vox.jar;md5;266e332fa45d4ce8e49f2f383e460868",
+    "spider": "http://rihou.cc:88/jar/vox.jar;md5;d6b28ad9bed7048741554643610480a0",
     "notice": "细节决定专业，实用才是王道！--天扬",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
         {
             "name": "天扬热播剧场",
-            "url": "http://rihou.cc:88/json/热播.m3u"
+            "url": "https://pan.ymxx.net/f/WeZcK/rebo.m3u"
         }
     ],
     "sites": [
@@ -331,7 +331,7 @@
             "api": "csp_FileSpider",
             "type": "3",
             "jar": "https://igdux.top/WCDs",
-            "ext": "http://rihou.cc:88/json/热播.m3u",
+            "ext": "https://pan.ymxx.net/f/WeZcK/rebo.m3u",
             "searchable": 1,
             "filterable": 1,
             "switchable": 1
