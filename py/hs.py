@@ -62,7 +62,7 @@ headerz = {
 class Spider(Spider):
 
     def getName(self):
-        return "丢丢喵"
+        return "丢丢"
 
     def init(self, extend):
         pass
