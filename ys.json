@@ -131,28 +131,6 @@
             "ext": "./js/金牌影视.js"
         },
         {
-            "key": "清雨PHP",
-            "name": "🌈清雨┃PHP",
-            "type": 4,
-            "api": "http://rihou.cc:88/php/xpg.php",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "苹果PHP",
-            "name": "🍎苹果┃PHP",
-            "type": 4,
-            "api": "http://rihou.cc:88/php/jsy.php",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
             "key": "山有木兮",
             "name": "🏔️山木┃（羊）",
             "type": 3,
@@ -211,6 +189,13 @@
             "api": "csp_XBPQ",
             "ext": "http://rihou.cc:88/xb/韩剧看看.json",
             "jar": "http://rihou.cc:88/jar/xbpq.jar"
+        },
+        {
+            "key": "泥泥视频",
+            "name": "🍋泥泥┃视频",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/泥泥视频.js"
         },
         {
             "key": "腾腾",
