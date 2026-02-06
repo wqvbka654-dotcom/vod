@@ -264,6 +264,13 @@
             }
         },
         {
+            "key": "搜一下APP",
+            "name": "🥌搜搜┃APP",
+            "type": 3,
+            "api": "csp_Appfox",
+            "ext": "https://www.zjcvod.com"
+        },
+        {
             "key": "云云",
             "name": "☁️云云┃APP",
             "type": 3,
