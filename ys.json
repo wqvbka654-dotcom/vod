@@ -296,7 +296,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "classes": "./json/duanjucen.json"
+                "classes": "http://rihou.cc:88/json/duanjucen.json"
             }
         },
         {
