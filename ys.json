@@ -1,5 +1,5 @@
 {
-    "spider": "http://rihou.cc:88/jar/vox.jar;md5;d6b28ad9bed7048741554643610480a0",
+    "spider": "./jar/vox.jar;md5;d6b28ad9bed7048741554643610480a0",
     "notice": "细节决定专业，实用才是王道！--天扬",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
