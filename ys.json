@@ -158,6 +158,24 @@
             "changeable": 1
         },
         {
+            "key": "4KVM1",
+            "name": "4KVM",
+            "type": 3,
+            "api": "./py/4KVM.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "fo9fo1",
+            "name": "fofo",
+            "type": 3,
+            "searchable": 0,
+            "api": "./js/fofo.js"
+        },
+        {
             "key": "茶杯狐",
             "name": "🦊茶狐┃（羊）",
             "type": 3,
