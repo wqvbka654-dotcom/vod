@@ -74,13 +74,6 @@
             "ext": "./json/喵TV.json"
         },
         {
-            "key": "123tv66",
-            "name": "123TV",
-            "type": 3,
-            "searchable": 0,
-            "api": "./js/123TV.js"
-        },
-        {
             "key": "人人视频6",
             "name": "人人视频",
             "type": 3,
