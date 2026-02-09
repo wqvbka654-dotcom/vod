@@ -124,6 +124,19 @@
             "ext": "./js/金牌影视.js"
         },
         {
+            "key": "金牌影视py",
+            "name": "金牌影视｜秒播",
+            "type": 3,
+            "api": "./py/嗷鸣金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
             "key": "山有木兮",
             "name": "🏔️山木┃（羊）",
             "type": 3,
