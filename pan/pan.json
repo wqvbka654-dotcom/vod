@@ -1,18 +1,20 @@
 {
     "spider": "./ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-    "notice": "天扬夸克网盘线路",
+    "notice": "天扬网盘线路",
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "sites": [
         {
-            "key": "豆瓣",
-            "name": "请先到网盘配制登陆输入cookie登陆夸克网盘",
+            "key": "玩偶",
+            "name": "👽玩偶┃4K",
             "type": 3,
             "api": "csp_AweSomeGuard",
-            "searchable": 0,
+            "searchable": 1,
+            "filterable": 1,
             "changeable": 1,
             "ext": {
-                "sp": "Douban"
-            }
+                "sp": "Wogg"
+            },
+            "timeout": 30
         },
         {
             "key": "配置中心",
@@ -59,19 +61,6 @@
                 "sp": "Star2"
             },
             "timeout": 25
-        },
-        {
-            "key": "玩偶",
-            "name": "👽玩偶┃4K",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "sp": "Wogg"
-            },
-            "timeout": 30
         },
         {
             "key": "立播版",
