@@ -21,6 +21,17 @@
             "ext": "./1.json"
         },
         {
+            "key": "wv_yszb",
+            "name": "央视直播(1080P)",
+            "api": "csp_WvSpider",
+            "type": "3",
+            "jar": "./jar/WvSpider.jar",
+            "ext": "./js/央视直播.js",
+            "searchable": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
             "key": "海狗视",
             "name": "天扬河马秒播",
             "type": 3,
@@ -78,6 +89,17 @@
             "name": "人人视频",
             "type": 3,
             "api": "./py/人人视频.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "花花",
+            "name": "花花影院",
+            "type": 3,
+            "api": "./js/花花影院.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.33
