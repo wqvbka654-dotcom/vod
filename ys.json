@@ -85,6 +85,14 @@
             "ext": "./json/喵TV.json"
         },
         {
+            "key": "加密狗",
+            "name": "麻花影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/麻花影视.json"
+        },
+        {
             "key": "人人视频6",
             "name": "人人视频",
             "type": 3,
@@ -116,6 +124,12 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "📺荐片cat",
+            "type": 3,
+            "api": "./js/荐片cat.js"
         },
         {
             "key": "旺旺影视",
