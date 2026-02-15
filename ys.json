@@ -4,8 +4,8 @@
     "logo": "https://img.baidu.re/i/2026/01/sr0l49.jpg",
     "lives": [
         {
-            "name": "天扬热播剧场",
-            "url": "https://pan.ymxx.net/f/WeZcK/rebo.m3u"
+            "name": "直播",
+            "url": "http://159.75.152.41:5908/jiduo"
         }
     ],
     "sites": [
