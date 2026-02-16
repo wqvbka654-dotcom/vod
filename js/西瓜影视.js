@@ -1,0 +1,28 @@
+var rule = {
+  title: '西瓜影院[优]',
+  host: 'https://sszzyy.com/',
+  url: '/index.php/vod/type/id/fyclass/page/fypage.html',
+  searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'UC_UA',
+  },
+  class_parse: '.stui-header__menu li:gt(0):lt(7);a&&Text;a&&href;.*/(.*?).html',
+  play_parse: true,
+  lazy: "js:\n  let html = request(input);\n  // 1. 匹配播放器配置 JSON\n  let hconf = html.match(/var\\s+player_.*?=\\s*({.*?})\\s*</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n\n  // 2. 根据 encrypt 字段解码\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    // 针对你给出的 encrypt:2 场景：Base64解码后再进行 unescape\n    url = unescape(base64Decode(url));\n  }\n\n  // 3. 智能解析与跳转策略\n  // 判断是否是第三方官源（如腾讯、爱奇艺等），这类通常需要过解析器\n  const isOfficial = /(qq\\.com|iqiyi\\.com|youku\\.com|bilibili\\.tv|mgtv\\.com)/.test(url);\n  \n  if (isOfficial) {\n    input = {\n      parse: 1, // 设为 1 启用内置解析或强制跳转\n      jx: 0,\n      url: 'https://ppl.sszzyy.com/?url=' + encodeURIComponent(url),\n      header: {\n        'Referer': host,\n        'User-Agent': MOBILE_UA\n      }\n    };\n  } else if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    // 如果直接是媒体地址，直接播放\n    input = { parse: 0, jx: 0, url: url };\n  } else {\n    // 其他情况，尝试让壳子自行解析或直接跳转\n    input = url.startsWith('http') ? { parse: 1, url: url } : url;\n  }",
+  limit: 6,
+  double: true,
+  推荐: 'ul.stui-vodlist.clearfix;li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href',
+  一级: '.stui-vodlist li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
+  二级: {
+    title: '.stui-content__detail .title&&Text',
+    img: '.stui-content__thumb .lazyload&&data-original',
+    desc: '.stui-content__detail p&&Text;.stui-content__detail&&p:eq(4)&&Text;.stui-content__detail&&p:eq(2)&&Text;.stui-content__detail p:eq(6)&&Text;.stui-content__detail p:eq(5)&&Text',
+    content: '.detail&&Text',
+    tabs: '.nav-tabs li',
+    lists: '.stui-content__playlist:eq(#id) li',
+  },
+  搜索: 'ul.stui-vodlist li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href;.detail&&Text',
+}
