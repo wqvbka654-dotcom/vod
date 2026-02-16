@@ -35,6 +35,10 @@
         {
             "name": "二小在线",
             "url": "https://9280.kstore.space/wex.json"
+        },
+        {
+            "name": "短剧在线",
+            "url": "http://jiduo.3116598.xyz"
         }
     ]
 }
