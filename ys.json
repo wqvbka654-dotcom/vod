@@ -93,6 +93,14 @@
             "ext": "./json/麻花影视.json"
         },
         {
+            "key": "全能",
+            "name": "全能影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/全能影视.json"
+        },
+        {
             "key": "人人视频6",
             "name": "人人视频",
             "type": 3,
@@ -595,21 +603,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": ""
-        },
-        {
-            "key": "100听书",
-            "name": "📚100┃听书",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "http://rihou.cc:88/xb/100听书.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "爱上听书",
-            "name": "📚爱上┃听书",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/爱上听书.js"
         },
         {
             "key": "drpy2_戏曲大全",
