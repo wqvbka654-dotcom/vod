@@ -170,6 +170,12 @@
             "api": "./py/爱一帆.py"
         },
         {
+            "key": "py_飞快TV",
+            "name": "📺飞快TVpy",
+            "type": 3,
+            "api": "./py/飞快TV.py"
+        },
+        {
             "key": "旺旺影视",
             "name": "🐶旺旺┃影视xbpq",
             "type": 3,
