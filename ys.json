@@ -397,41 +397,10 @@
             }
         },
         {
-            "key": "星之阁短剧AI",
-            "name": "短剧┃AI²",
-            "type": 3,
-            "api": "csp_XingZhiGe",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "classes": "./json/duanjucen.json"
-            }
-        },
-        {
             "key": "聚合短剧",
             "name": "🐑短剧┃（羊）",
             "type": 3,
             "api": "http://rihou.cc:88/js/聚合短剧.js"
-        },
-        {
-            "key": "直播转点播",
-            "name": "天扬万部点播",
-            "type": 3,
-            "searchable": 0,
-            "api": "./js/live2vod.js",
-            "ext": "./json/feimaolive.json"
-        },
-        {
-            "key": "一万部",
-            "name": "天扬万部搜索",
-            "api": "csp_FileSpider",
-            "type": "3",
-            "jar": "https://igdux.top/WCDs",
-            "ext": "https://pan.ymxx.net/f/WeZcK/rebo.m3u",
-            "searchable": 1,
-            "filterable": 1,
-            "switchable": 1
         },
         {
             "key": "爱听音乐",
