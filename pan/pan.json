@@ -1,7 +1,7 @@
 {
     "spider": "./ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
     "notice": "天扬网盘线路",
-    "logo": "https://igdux.top/~wqvbka",
+    "logo": "https://i.imgant.com/v2/HoiAe8d.jpeg",
     "sites": [
         {
             "key": "玩偶",
@@ -15,6 +15,19 @@
                 "sp": "Wogg"
             },
             "timeout": 30
+        },
+        {
+            "key": "csp_PanShareQuark",
+            "name": "🆘夸克网盘大全",
+            "type": 3,
+            "api": "csp_PanShareQuark",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 60,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;d6b28ad9bed7048741554643610480a0",
+            "ext": {
+                "class": "./json/quarkshare.txt"
+            }
         },
         {
             "key": "配置中心",
