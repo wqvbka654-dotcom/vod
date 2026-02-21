@@ -443,93 +443,95 @@
         },
         {
             "key": "bilimd",
-            "name": "🅱️哔哩┃影视",
+            "name": "🅱哔哩┃影视",
             "type": 3,
-            "api": "csp_BilimdGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
+            },
+            "ext": {
+                "sp": "Bilimd"
             },
             "timeout": 10
         },
         {
             "key": "bili",
-            "name": "🅱️哔哩┃合集",
+            "name": "🅱哔哩┃合集",
             "type": 3,
-            "api": "csp_BiliGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/bili.json"
+                "sp": "Bili",
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
             },
             "timeout": 20
         },
         {
             "key": "biliych",
-            "name": "🅱️哔哩┃歌曲",
+            "name": "🅱哔哩┃歌曲",
             "type": 3,
-            "api": "csp_BiliGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/biliyy.json"
+                "sp": "Bili",
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
             },
             "timeout": 20
         },
         {
             "key": "bilixs",
-            "name": "🅱️哔哩┃相声",
+            "name": "🅱哔哩┃相声",
             "type": 3,
-            "api": "csp_BiliGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/bilixs.json"
+                "sp": "Bili",
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
             },
             "timeout": 20
         },
         {
             "key": "bilixp",
-            "name": "🅱️哔哩┃小品",
+            "name": "🅱哔哩┃小品",
             "type": 3,
-            "api": "csp_BiliGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/bilixp.json"
+                "sp": "Bili",
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
             },
             "timeout": 20
         },
