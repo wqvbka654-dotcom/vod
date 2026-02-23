@@ -112,17 +112,6 @@
             "changeable": 1
         },
         {
-            "key": "cat12光影",
-            "name": "cat_12光影",
-            "type": 3,
-            "api": "./js/cat_12光影.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
             "key": "首播",
             "name": "首播影院",
             "type": 3,
@@ -138,6 +127,17 @@
             "name": "花花影院",
             "type": 3,
             "api": "./js/花花影院.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "影视大全cat",
+            "name": "影视大全",
+            "type": 3,
+            "api": "./js/cat影视大全.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.33
