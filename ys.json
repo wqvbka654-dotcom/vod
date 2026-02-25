@@ -325,34 +325,6 @@
             "ext": "http://rihou.cc:88/js/泥泥视频.js"
         },
         {
-            "key": "腾腾",
-            "name": "🐧腾腾┃JX",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/腾腾.js"
-        },
-        {
-            "key": "奇奇",
-            "name": "🐴奇奇┃JX",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/奇奇.js"
-        },
-        {
-            "key": "果果",
-            "name": "🍋果果┃JX",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/果果.js"
-        },
-        {
-            "key": "酷酷",
-            "name": "😎酷酷┃JX",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/酷酷.js"
-        },
-        {
             "key": "永恒视频",
             "name": "🐁永恒┃APP",
             "type": 3,
@@ -767,12 +739,52 @@
             "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
         },
         {
-            "name": "手动解析",
+            "name": "手动解析①",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析②",
+            "type": 0,
+            "url": "https://jx.nnxv.cn/tv.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析③",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析④",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析⑤",
+            "type": 0,
+            "url": "https://okjx.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
                 }
             }
         }
