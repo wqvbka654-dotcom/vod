@@ -55,13 +55,14 @@
         },
         {
             "key": "csp_Jianpian",
-            "name": "天扬荐片高清",
+            "name": "荐片高清",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
             "changeable": 1,
             "ext": {
                 "filters": "./json/jianpian.json",
+                "imgUrl": "https://img.jgsfnl.com",
                 "sites": "https://api.ztcgi.com"
             }
         },
@@ -99,6 +100,12 @@
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
             "ext": "./json/全能影视.json"
+        },
+        {
+            "key": "py_新视讯影视",
+            "name": "新视讯影视",
+            "type": 3,
+            "api": "./py/新视讯影视.py"
         },
         {
             "key": "人人视频6",
@@ -247,12 +254,6 @@
             }
         },
         {
-            "key": "山有木兮",
-            "name": "🏔️山木┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88//js/山有木兮.js"
-        },
-        {
             "key": "爱看机器人",
             "name": "🚒爱看",
             "type": 3,
@@ -366,6 +367,19 @@
             "ext": {
                 "classes": "http://rihou.cc:88/json/duanjucen.json"
             }
+        },
+        {
+            "key": "星之阁短剧AI",
+            "name": "😒短剧┃AI²",
+            "type": 3,
+            "api": "csp_XingZhiGe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "http://rihou.cc:88/json/duanjucen.json"
+            },
+            "类型": "短剧"
         },
         {
             "key": "聚合短剧",
@@ -527,15 +541,18 @@
             "key": "虎牙直播",
             "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "csp_HuyaGuard",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
+            },
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Huya"
             },
             "timeout": 10
         },
