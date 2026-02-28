@@ -106,7 +106,7 @@
             "name": "拖布影视",
             "type": 3,
             "api": "csp_XYQHiker",
-            "jar": "./jar/lge.jar",
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
         },
         {
@@ -585,6 +585,20 @@
                 "sp": "Huya"
             },
             "timeout": 10
+        },
+        {
+            "key": "KuaiShou",
+            "name": "🌇｜快手｜直播",
+            "type": 3,
+            "api": "csp_KuaiShou",
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
         },
         {
             "key": "drpy2_虎牙直播",
