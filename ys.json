@@ -94,6 +94,22 @@
             "ext": "./json/58影视.json"
         },
         {
+            "key": "vs",
+            "name": "VS影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/vs影视.json"
+        },
+        {
+            "key": "拖布",
+            "name": "拖布影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/lge.jar",
+            "ext": "./json/拖布影视.json"
+        },
+        {
             "key": "加密狗",
             "name": "麻花影视",
             "type": 3,
