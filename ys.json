@@ -86,6 +86,14 @@
             "ext": "./json/喵TV.json"
         },
         {
+            "key": "58",
+            "name": "58影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/58影视.json"
+        },
+        {
             "key": "加密狗",
             "name": "麻花影视",
             "type": 3,
