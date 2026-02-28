@@ -1,0 +1,17 @@
+{
+    "name": "数据库",
+    "list": [
+        {
+            "name": "网络数据库映射配置",
+            "key": "networkDatabaseMapping",
+            "icon": "",
+            "des": "设置"
+        },
+        {
+            "name": "网络数据库",
+            "key": "networkDatabaseManagement",
+            "icon": "",
+            "des": "管理"
+        }
+    ]
+}
