@@ -649,6 +649,44 @@
             "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
         },
         {
+            "key": "song_1a48b",
+            "name": "🗄️｜网络数据库KTV",
+            "type": 3,
+            "api": "csp_KTV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "ext": ""
+        },
+        {
+            "key": "networkdb",
+            "name": "🗄️｜网络数据库合集",
+            "type": 3,
+            "api": "csp_NetworkDB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "ext": ""
+        },
+        {
+            "key": "配置",
+            "name": "网络数据中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./configcenter.json"
+        },
+        {
             "key": "配置中心",
             "name": "哔哩哔哩登陆",
             "type": 3,
