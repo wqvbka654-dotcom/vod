@@ -24,7 +24,7 @@
             "searchable": 1,
             "changeable": 0,
             "timeout": 60,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;d6b28ad9bed7048741554643610480a0",
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;f70358ad09641c7fe7441a901ef323d2",
             "ext": {
                 "class": "./json/quarkshare.txt"
             }
