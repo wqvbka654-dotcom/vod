@@ -1,12 +1,16 @@
 {
     "urls": [
         {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/ys.json",
+            "url": "http://cfty.xiagua.top/cfty/ys.json",
             "name": "天扬在线"
         },
         {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan/pan.json",
+            "url": "http://cfty.xiagua.top/pan/pan.json",
             "name": "天扬网盘专线"
+        },
+        {
+            "url": "http://rihou.cc:88/demo.php",
+            "name": "集多在线"
         },
         {
             "url": "http://ok213.top/ok",
@@ -15,18 +19,6 @@
         {
             "url": "http://www.饭太硬.net/tv",
             "name": "饭太硬在线"
-        },
-        {
-            "url": "https://fastgit.cc/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
-            "name": "东篱在线"
-        },
-        {
-            "url": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/config",
-            "name": "嗷鸣在线"
-        },
-        {
-            "url": "http://rihou.cc:88/demo.php",
-            "name": "集多在线"
         },
         {
             "url": "https://catbox.n13.club/jk/t4.json",
