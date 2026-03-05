@@ -1,0 +1,597 @@
+{
+    "spider": "./jar/vox.jar;md5;f70358ad09641c7fe7441a901ef323d2",
+    "logo": "https://i.imgant.com/v2/HoiAe8d.jpeg",
+    "sites": [
+        {
+            "key": "csp_Douban",
+            "name": "❤️天扬影视列表",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "timeout": 30,
+            "indexs": 1,
+            "ext": "./json/douban.json"
+        },
+        {
+            "key": "csp_Config",
+            "name": "😊网盘配置登陆",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "csp_PanShareQuark",
+            "name": "🆘夸克┃网盘",
+            "type": 3,
+            "api": "csp_PanShareQuark",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "ext": {
+                "class": "./json/quarkshare.txt"
+            }
+        },
+        {
+            "key": "csp_PanShareUC",
+            "name": "🆘UC┃网盘",
+            "type": 3,
+            "api": "csp_PanShareUC",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "ext": {
+                "class": "./json/ucshare.txt"
+            }
+        },
+        {
+            "key": "csp_PanShare115",
+            "name": "🆘115┃网盘",
+            "type": 3,
+            "api": "csp_PanShare115",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "ext": {
+                "class": "./json/115share.txt"
+            }
+        },
+        {
+            "key": "csp_TgDouban",
+            "name": "🥳TG┃豆瓣",
+            "type": 3,
+            "api": "csp_TgDouban",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "filters": "./json/douban.json"
+            }
+        },
+        {
+            "key": "csp_PanSou",
+            "name": "🥺盘搜┃搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "include": [
+                    "HDR",
+                    "高码"
+                ],
+                "exclude": [
+                    "预告",
+                    "花絮"
+                ]
+            }
+        },
+        {
+            "key": "csp_PgDouban",
+            "name": "😊PG┃豆瓣",
+            "type": 3,
+            "api": "csp_PgDouban",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "filters": "./json/douban.json",
+                "channel": "tgsearchers3,yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,yeqingjie_GJG666,PanjClub,guoman4K,alyp_1,kuake_yppan,yunpanuc,BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd,shareAliyun,zaihuayun,ali_yppan"
+            }
+        },
+        {
+            "key": "夸克推送",
+            "name": "👊夸克┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=quark"
+        },
+        {
+            "key": "百度推送",
+            "name": "✊百度┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=baidu"
+        },
+        {
+            "key": "UC推送",
+            "name": "☝️优熙┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=uc"
+        },
+        {
+            "key": "天翼推送",
+            "name": "✋天翼┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=tianyi"
+        },
+        {
+            "key": "123推送",
+            "name": "✌️123┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=123"
+        },
+        {
+            "key": "移动推送",
+            "name": "👍移动┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=mobile"
+        },
+        {
+            "key": "csp_Panta91",
+            "name": "🐹盘Ta┃YD",
+            "type": 3,
+            "api": "csp_Panta91",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.91panta.cn",
+                "proxy": "noproxy",
+                "classes": "./json/panta.json"
+            }
+        },
+        {
+            "key": "csp_SeedHub",
+            "name": "🎳Seed┃Hub",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "timeout": 30,
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_Xxzn",
+            "name": "🤑4K┃指南",
+            "type": 3,
+            "api": "csp_Xxzn",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "filters": "./json/xxzn.json",
+                "sites": "https://4kzn.com"
+            }
+        },
+        {
+            "key": "csp_Wogg",
+            "name": "😁玩偶┃哥哥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "timeout": 30,
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "https://wogg.xxooo.cf",
+                "filters": "./json/wogg.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "欧歌网盘",
+            "name": "🤪欧歌┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "https://woog.nxog.eu.org",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "蜡笔网盘",
+            "name": "🤩蜡笔┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "http://fmao.shop",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "闪电网盘",
+            "name": "🤑闪电┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "https://sd.sduc.site",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "二小网盘",
+            "name": "🤬二小┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "http://2xiaopan.fun",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "木偶网盘",
+            "name": "🙄木偶┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "https://www.muou.site",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "至臻网盘",
+            "name": "🤫至臻┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "https://mihdr.top",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "短裤",
+            "name": "🐥短剧┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+        },
+        {
+            "key": "csp_Kan90",
+            "name": "😇最全┃短剧",
+            "type": 3,
+            "api": "csp_Kan90",
+            "timeout": 30,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "类型": "短剧"
+        },
+        {
+            "key": "夸克短剧",
+            "name": "🌽夸克┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "timeout": 30,
+            "ext": "./xb/夸克短剧.json",
+            "jar": "./jar/xbpq.jar",
+            "类型": "短剧"
+        },
+        {
+            "key": "短剧百度",
+            "name": "🥦短剧┃百度",
+            "type": 3,
+            "timeout": 30,
+            "api": "csp_XBPQ",
+            "ext": "./xb/短剧百度.json",
+            "jar": "./jar/xbpq.jar",
+            "类型": "短剧"
+        },
+        {
+            "key": "短剧夸克",
+            "name": "🍆短剧┃夸克",
+            "type": 3,
+            "timeout": 30,
+            "api": "csp_XBPQ",
+            "ext": "./xb/短剧夸克.json",
+            "jar": "./jar/xbpq.jar",
+            "类型": "短剧"
+        },
+        {
+            "key": "爱看资源网",
+            "name": "🚘爱看┃网盘",
+            "type": 3,
+            "timeout": 30,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱看资源网.js"
+        },
+        {
+            "key": "夸克影视",
+            "name": "💕夸克┃影视",
+            "type": 3,
+            "timeout": 30,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/夸克影视.js"
+        },
+        {
+            "key": "cat_夸克影院",
+            "name": "👶夸克┃影院",
+            "type": 3,
+            "timeout": 30,
+            "api": "./js/夸克影院.js"
+        },
+        {
+            "key": "cat_HDmoli",
+            "name": "⛵HDmoli┃影院",
+            "type": 3,
+            "timeout": 30,
+            "api": "./js/HDmoli.js"
+        },
+        {
+            "key": "米盘搜索",
+            "name": "🌾米盘┃搜索",
+            "type": 3,
+            "timeout": 30,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/米盘搜索.js"
+        },
+        {
+            "key": "人人电影",
+            "name": "👰人人┃电影",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/人人电影.js"
+        },
+        {
+            "key": "py_盘友圈",
+            "name": "🤒盘友┃搜索",
+            "api": "./py/盘友圈.py",
+            "filterable": 1,
+            "timeout": 30,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "key": "push_agent",
+            "name": "😋链接┃推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 30
+        }
+    ],
+    "doh": [
+        {
+            "name": "DNSPod",
+            "url": "https://doh.pub/dns-query",
+            "ips": [
+                "119.29.29.29",
+                "119.28.28.28",
+                "2400:da00::6666",
+                "2400:da00:1::6666"
+            ]
+        },
+        {
+            "name": "Alidns",
+            "url": "https://dns.alidns.com/dns-query",
+            "ips": [
+                "223.5.5.5",
+                "223.6.6.6",
+                "2400:3200::1",
+                "2400:3200:baba::1"
+            ]
+        },
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8",
+                "2001:4860:4860::8888",
+                "2001:4860:4860::8844"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141",
+                "2a10:50c0::ad1:ff",
+                "2a10:50c0::ad2:ff"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40",
+                "2001:67c:2354:2::64",
+                "2001:67c:2354:3::64"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112",
+                "2620:fe::fe",
+                "2620:fe::9"
+            ]
+        }
+    ],
+    "proxy": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "googleapis.com",
+        "youtube.com"
+    ],
+    "rules": [
+        {
+            "name": "火山嗅探",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音嗅探",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "農民嗅探",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "七新嗅探",
+            "hosts": [
+                "api.52wyb.com"
+            ],
+            "regex": [
+                "m3u8?pt=m3u8"
+            ]
+        },
+        {
+            "name": "毛驢點擊",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        }
+    ],
+    "headers": [
+        {
+            "host": "img\\d+.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img1.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img2.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img3.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img4.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img5.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img6.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img7.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img8.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img9.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        }
+    ],
+    "hosts": [],
+    "parses": [
+        {
+            "name": "",
+            "type": 1,
+            "url": ""
+        }
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv",
+        "s3t3d2y8.afcdn.net"
+    ]
+}
