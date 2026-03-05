@@ -32,6 +32,15 @@
             "switchable": 1
         },
         {
+            "key": "咪咕PHP",
+            "name": "央视直播┃PHP",
+            "type": 4,
+            "api": "http://rihou.cc:88/zb/直播转点播.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "海狗视",
             "name": "天扬河马秒播",
             "type": 3,
