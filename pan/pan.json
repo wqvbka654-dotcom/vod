@@ -17,19 +17,6 @@
             "timeout": 30
         },
         {
-            "key": "csp_PanShareQuark",
-            "name": "🆘夸克┃网盘",
-            "type": 3,
-            "api": "csp_PanShareQuark",
-            "searchable": 1,
-            "changeable": 0,
-            "timeout": 30,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;f70358ad09641c7fe7441a901ef323d2",
-            "ext": {
-                "class": "./json/quarkshare.txt"
-            }
-        },
-        {
             "key": "配置中心",
             "name": "网盘配制登陆",
             "type": 3,
@@ -361,6 +348,28 @@
                 "sp": "Djps"
             },
             "timeout": 25
+        },
+        {
+            "key": "csp_PanShareQuark",
+            "name": "🆘夸克┃网盘",
+            "type": 3,
+            "api": "csp_PanShareQuark",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;f70358ad09641c7fe7441a901ef323d2",
+            "ext": {
+                "class": "./json/quarkshare.txt"
+            }
+        },
+        {
+            "key": "csp_Config",
+            "name": "🆘配置┃中心",
+            "type": 3,
+            "api": "csp_Config",
+            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/vox.jar;md5;f70358ad09641c7fe7441a901ef323d2",
+            "searchable": 0,
+            "changeable": 0
         },
         {
             "key": "push_agent",
