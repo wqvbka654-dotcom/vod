@@ -455,13 +455,6 @@
             "timeout": 10
         },
         {
-            "key": "搜一下APP",
-            "name": "🥌搜搜┃APP",
-            "type": 3,
-            "api": "csp_Appfox",
-            "ext": "https://www.zjcvod.com"
-        },
-        {
             "key": "王某某影视",
             "name": "🎈王某┃APP",
             "type": 3,
