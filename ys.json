@@ -55,7 +55,7 @@
         },
         {
             "key": "csp_Jianpian",
-            "name": "荐片高清",
+            "name": "🥺荐片┃VOX",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -327,8 +327,18 @@
             "api": "http://rihou.cc:88/js/爱看机器人.js"
         },
         {
+            "key": "小羊4K",
+            "name": "🐑小羊┃4K",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://xy4k.com/url.txt",
+                "datakey": "7SDWjknU34zqFbVr"
+            }
+        },
+        {
             "key": "影探666",
-            "name": "影探-测试专用",
+            "name": "天扬4k",
             "type": 3,
             "api": "./py/yt.py",
             "style": {
@@ -338,8 +348,8 @@
             "changeable": 1
         },
         {
-            "key": "华数",
-            "name": "华数tv",
+            "key": "华",
+            "name": "花树tv",
             "type": 3,
             "api": "./py/hs.py",
             "style": {
@@ -406,6 +416,14 @@
             }
         },
         {
+            "key": "闪影BOX",
+            "name": "🤯臻享┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchTop": true,
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+        },
+        {
             "key": "糯米",
             "name": "🍓糯米┃秒播",
             "type": 3,
@@ -456,15 +474,16 @@
         },
         {
             "key": "全能短剧",
-            "name": "短剧┃AI¹",
+            "name": "😒短剧┃AI¹",
             "type": 3,
             "api": "csp_DuanJuCen",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "classes": "http://rihou.cc:88/json/duanjucen.json"
-            }
+                "classes": "./json/duanjucen.json"
+            },
+            "类型": "短剧"
         },
         {
             "key": "星之阁短剧AI",
@@ -475,7 +494,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "classes": "http://rihou.cc:88/json/duanjucen.json"
+                "classes": "./json/duanjucen.json"
             },
             "类型": "短剧"
         },
