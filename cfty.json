@@ -5,8 +5,12 @@
             "name": "天扬在线"
         },
         {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan/pan.json",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan2/pan.json",
             "name": "天扬网盘专线"
+        },
+        {
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan/pan.json",
+            "name": "天扬网盘专线2"
         },
         {
             "url": "http://rihou.cc:88/demo.php",
