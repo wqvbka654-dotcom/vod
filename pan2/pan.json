@@ -47,18 +47,6 @@
             }
         },
         {
-            "key": "csp_PanShare115",
-            "name": "🆘115┃网盘",
-            "type": 3,
-            "api": "csp_PanShare115",
-            "searchable": 1,
-            "changeable": 0,
-            "timeout": 30,
-            "ext": {
-                "class": "./json/115share.txt"
-            }
-        },
-        {
             "key": "csp_TgDouban",
             "name": "🥳TG┃豆瓣",
             "type": 3,
