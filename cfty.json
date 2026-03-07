@@ -57,8 +57,8 @@
             "url": "https://codeberg.org/cfty/vod/raw/branch/main/ys.json"
         },
         {
-            "url": "https://codeberg.org/cfty/pan/raw/branch/main/pan.json",
-            "name": "天扬网盘专线【备用】"
+            "name": "天扬网盘专线【备用】",
+            "url": "https://codeberg.org/cfty/pan/raw/branch/main/pan.json"
         },
         {
             "name": "天扬网盘专线2【备用】",
