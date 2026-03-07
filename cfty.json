@@ -51,6 +51,18 @@
         {
             "name": "短剧在线",
             "url": "http://jiduo.3116598.xyz"
+        },
+        {
+            "name": "天扬在线【备用】",
+            "url": "https://9877.kstore.space/AnotherD/api.json"
+        },
+        {
+            "url": "https://codeberg.org/cfty/pan/raw/branch/main/pan.json",
+            "name": "天扬网盘专线【备用】"
+        },
+        {
+            "name": "天扬网盘专线2【备用】",
+            "url": "https://codeberg.org/cfty/vod/raw/branch/main/pan/pan.json"
         }
     ]
 }
