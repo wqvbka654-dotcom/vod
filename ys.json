@@ -1,13 +1,13 @@
 {
-    "spider": "./jar/vox.jar;md5;2492b635719e6ccc26a05faec332df72",
+    "spider": "./jar/vox.jar;md5;6906c5621468c59f681549ef42837e18",
     "notice": "天扬影视在线",
     "logo": "https://i.imgant.com/v2/HoiAe8d.jpeg",
     "lives": [
         {
-            "name": "📡咪咕直播",
+            "name": "live",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-            "ua": "okHttp/Mod-1.1.0"
+            "url": "https://igdux.top/ByHt",
+            "ua": ""
         }
     ],
     "sites": [
