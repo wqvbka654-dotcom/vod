@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;2492b635719e6ccc26a05faec332df72",
+    "spider": "./jar/vox.jar;md5;6906c5621468c59f681549ef42837e18",
     "notice": "天扬网盘在线",
     "logo": "https://i.imgant.com/v2/HoiAe8d.jpeg",
     "sites": [
@@ -219,7 +219,7 @@
             "changeable": 1,
             "timeout": 30,
             "ext": {
-                "sites": "http://2xiaopan.fun",
+                "sites": "https://wexwp.cc",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
