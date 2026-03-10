@@ -332,6 +332,46 @@
             }
         },
         {
+            "key": "海龟JS",
+            "name": "海龟",
+            "type": 3,
+            "api": "./js/海龟.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "永乐Js",
+            "name": "永乐",
+            "type": 3,
+            "api": "./js/永乐.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "两个BTpy",
+            "name": "2BT",
+            "api": "./py/2bt.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "key": "界影PY",
+            "name": "界影",
+            "api": "./py/界影.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
             "key": "爱看机器人",
             "name": "🚒爱看",
             "type": 3,
@@ -613,8 +653,7 @@
                 "日韩综艺",
                 "港台综艺",
                 "欧美综艺",
-                "短剧",
-                "体育赛事"
+                "短剧"
             ]
         },
         {
