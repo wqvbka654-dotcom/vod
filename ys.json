@@ -477,15 +477,6 @@
             }
         },
         {
-            "key": "芒果",
-            "name": "芒果丨PY",
-            "api": "./py/芒果.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
-        },
-        {
             "key": "wsycj",
             "name": "采集",
             "type": 1,
@@ -532,7 +523,6 @@
                 "年代穿越",
                 "脑洞悬疑",
                 "现代都市",
-                "擦边短剧",
                 "漫剧"
             ]
         },
