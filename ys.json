@@ -1,6 +1,6 @@
 {
     "spider": "./jar/vox.jar;md5;3c531ba3864d3ce00a91f396cc9ab33e",
-    "notice": "天扬影视在线",
+    "notice": "❤️天扬影视❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
     "lives": [
         {
@@ -13,7 +13,7 @@
     "sites": [
         {
             "key": "csp_Douban",
-            "name": "天扬影视列表",
+            "name": "❤️天扬影视❤️",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
