@@ -10,7 +10,7 @@
     "主页url": "https://hmgyy.com",
     "首页": "120",
     "起始页": "1",
-    "分类url": "https://hmgyy.com/data/{cateId}?page={catePg}",
+    "分类url": "https://hmgyy.com/data/{cateId}?page={catePg};;d1",
     "分类": "电影$type/dy#电视剧$type/dsj#动漫$type/dm#综艺$type/zy#短剧$type/dj#大家在看$watched",
     "数组": "默认--{&&}||首页--/details&&</a>",
     "标题": "默认--name\":\"&&\"||首页--<p>&&<",
