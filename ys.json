@@ -593,7 +593,7 @@
             "key": "py_酷音乐",
             "name": "❤️🎶酷音乐尊享",
             "type": 3,
-            "api": "./py/哭我至尊.py"
+            "api": "./py/哭我plus.py"
         },
         {
             "key": "drpy2_可口",
