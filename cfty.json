@@ -2,15 +2,19 @@
     "urls": [
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/ys.json",
-            "name": "天扬在线"
+            "name": "❤️天扬在线❤️"
         },
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan2/pan.json",
-            "name": "天扬网盘专线"
+            "name": "❤️天扬网盘专线❤️"
         },
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan/pan.json",
-            "name": "天扬网盘专线2"
+            "name": "❤️天扬网盘专线2❤️"
+        },
+        {
+            "name": "❤️短剧在线❤️",
+            "url": "http://jiduo.3116598.xyz"
         },
         {
             "url": "http://rihou.cc:88/demo.php",
@@ -47,10 +51,6 @@
         {
             "name": "二小在线",
             "url": "https://9280.kstore.space/wex.json"
-        },
-        {
-            "name": "短剧在线",
-            "url": "http://jiduo.3116598.xyz"
         }
     ]
 }
