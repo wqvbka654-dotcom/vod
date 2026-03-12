@@ -5,13 +5,13 @@
             {
                 "name": "网络数据库映射配置",
                 "key": "networkDatabaseMapping",
-                "icon": "",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
                 "des": "设置"
             },
             {
                 "name": "网络数据库",
                 "key": "networkDatabaseManagement",
-                "icon": "",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
                 "des": "管理"
             }
         ]
