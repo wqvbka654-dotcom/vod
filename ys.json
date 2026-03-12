@@ -65,17 +65,35 @@
             "changeable": 1
         },
         {
-            "key": "csp_Jianpian",
-            "name": "🥺荐片┃VOX",
+            "key": "糯米",
+            "name": "天扬糯米秒播",
             "type": 3,
-            "api": "csp_Jianpian",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
-                "filters": "./json/jianpian.json",
-                "imgUrl": "https://img.jgsfnl.com",
-                "sites": "https://api.ztcgi.com"
-            }
+                "sp": "Nmys"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "热播",
+            "name": "天扬热播秒播",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "TianTian",
+                "site": 0
+            },
+            "timeout": 10
         },
         {
             "key": "哇",
@@ -87,6 +105,32 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "金牌影视py",
+            "name": "天扬金牌秒播",
+            "type": 3,
+            "api": "./py/嗷鸣金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
+            "key": "csp_Jianpian",
+            "name": "🥺荐片┃VOX",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "filters": "./json/jianpian.json",
+                "imgUrl": "https://img.jgsfnl.com",
+                "sites": "https://api.ztcgi.com"
+            }
         },
         {
             "key": "喵喵",
@@ -327,19 +371,6 @@
             "ext": "./js/金牌影视.js"
         },
         {
-            "key": "金牌影视py",
-            "name": "金牌影视｜秒播",
-            "type": 3,
-            "api": "./py/嗷鸣金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-            }
-        },
-        {
             "key": "海龟JS",
             "name": "海龟",
             "type": 3,
@@ -481,37 +512,6 @@
             "api": "csp_AppYsV2",
             "searchTop": true,
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
-            "key": "糯米",
-            "name": "🍓糯米┃秒播",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Nmys"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "热播",
-            "name": "📺热播┃App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "TianTian",
-                "site": 0
-            },
-            "timeout": 10
         },
         {
             "key": "王某某影视",
