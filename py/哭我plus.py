@@ -5,7 +5,7 @@ import requests
 
 class Spider(Spider):
     def getName(self):
-        return "酷我音乐"
+        return "酷音乐"
 
     def init(self, extend):
         self.official_api = "https://www.kuwo.cn/api/www"
