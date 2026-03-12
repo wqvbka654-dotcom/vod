@@ -18,13 +18,13 @@
             "api": "csp_Douban",
             "searchable": 0,
             "changeable": 1,
-            "timeout": 60,
+            "timeout": 30,
             "indexs": 0,
             "ext": "./json/douban.json"
         },
         {
             "key": "wv_yszb",
-            "name": "央视直播(1080P)",
+            "name": "🎦央视直播(1080P)",
             "api": "csp_WvSpider",
             "type": "3",
             "jar": "./jar/WvSpider.jar",
@@ -35,7 +35,7 @@
         },
         {
             "key": "咪咕PHP",
-            "name": "央视直播┃PHP",
+            "name": "🎦央视直播（720P）",
             "type": 4,
             "api": "http://rihou.cc:88/zb/直播转点播.php",
             "searchable": 1,
@@ -109,17 +109,6 @@
             "timeout": 10
         },
         {
-            "key": "哇",
-            "name": "❤️天扬哇哇秒播",
-            "type": 3,
-            "api": "./py/哇哇.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
             "key": "金牌影视py",
             "name": "❤️天扬金牌秒播",
             "type": 3,
@@ -174,6 +163,57 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "旺旺",
+            "name": "❤️天扬旺旺视频",
+            "type": 3,
+            "api": "./js/旺旺影视.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "旺旺影视",
+            "name": "❤️旺旺XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc:88/xb/旺旺影视.json",
+            "jar": "http://rihou.cc:88/jar/xbpq.jar"
+        },
+        {
+            "key": "cat_3Q",
+            "name": "❤️天扬3Q影视cat",
+            "type": 3,
+            "api": "./js/3Q影视.js"
+        },
+        {
+            "key": "泥泥视频",
+            "name": "❤️天扬泥泥视频",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/泥泥视频.js"
+        },
+        {
+            "key": "人人视频6",
+            "name": "❤️天扬人人视频",
+            "type": 3,
+            "api": "./py/人人视频.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "韩剧看看",
+            "name": "❤️天扬韩剧看看",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "http://rihou.cc:88/xb/韩剧看看.json",
+            "jar": "http://rihou.cc:88/jar/xbpq.jar"
         },
         {
             "key": "wsycj",
@@ -346,15 +386,23 @@
         },
         {
             "key": "58",
-            "name": "58影视",
+            "name": "🧡58影视",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
             "ext": "./json/58影视.json"
         },
         {
+            "key": "哈密瓜",
+            "name": "🧡哈密瓜影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/哈密瓜影院.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
             "key": "vs",
-            "name": "VS影视",
+            "name": "🧡VS影视",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
@@ -362,221 +410,15 @@
         },
         {
             "key": "拖布",
-            "name": "拖布影视",
+            "name": "🧡拖布影视",
             "type": 3,
             "api": "csp_XYQHiker",
             "jar": "https://gitee.com/cfty654/ty/raw/master/jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
         },
         {
-            "key": "星星",
-            "name": "星星影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/xbpq.jar",
-            "ext": {
-                "请求头": "手机",
-                "主页url": "https://www.guosheji.com/",
-                "数组": "myui-vodlist__thumb&&</a>",
-                "简介": "简介：&&</a>",
-                "副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "线路数组": "#playlist&&</li>[不包含:秒播]",
-                "线路标题": "+>&&</a>+",
-                "搜索标题": "title=\"&&\"",
-                "搜索副标题": "text-right\">&&</span>",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "播放数组": "<ul class=\"myui-content__list&&</ul>",
-                "播放标题": ">&&</a>[不包含:дрр滈凊]",
-                "播放列表": "<li&&</li>",
-                "跳转解析": "默认$https://jiexi.ddmz6.com/api/publicApi.php?url=",
-                "搜索url": "https://www.guosheji.com/xingsc/{wd}-------------.html",
-                "嗅探词": ".m3u8#.mp4#.flv#.mp3#.m4a",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-                "分类url": "https://www.guosheji.com/xingsw/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/;;ak"
-            }
-        },
-        {
-            "key": "加密狗",
-            "name": "麻花影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/麻花影视.json"
-        },
-        {
-            "key": "哈密瓜",
-            "name": "哈密瓜影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/哈密瓜影院.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "全能",
-            "name": "全能影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/全能影视.json"
-        },
-        {
-            "key": "py_新视讯影视",
-            "name": "新视讯影视",
-            "type": 3,
-            "api": "./py/新视讯影视.py"
-        },
-        {
-            "key": "人人视频6",
-            "name": "人人视频",
-            "type": 3,
-            "api": "./py/人人视频.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "cat_kan影视",
-            "name": "看影视",
-            "type": 3,
-            "api": "./js/cat_kan影视.js"
-        },
-        {
-            "key": "大猫",
-            "name": "大猫影院",
-            "type": 3,
-            "api": "./js/cat_大猫影院.js"
-        },
-        {
-            "key": "首播",
-            "name": "首播影院",
-            "type": 3,
-            "api": "./js/cat_首播影院.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "花花",
-            "name": "花花影院",
-            "type": 3,
-            "api": "./js/花花影院.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "影视大全cat",
-            "name": "影视大全",
-            "type": 3,
-            "api": "./js/cat影视大全.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "旺旺",
-            "name": "旺旺视频",
-            "type": 3,
-            "api": "./js/旺旺影视.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "cat_荐片app",
-            "name": "📺荐片cat",
-            "type": 3,
-            "api": "./js/荐片cat.js"
-        },
-        {
-            "key": "cat_3Q",
-            "name": "📺3Q影视cat",
-            "type": 3,
-            "api": "./js/3Q影视.js"
-        },
-        {
-            "key": "drpy2_缘觉影视",
-            "name": "📺缘觉影视js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/缘觉影视.js"
-        },
-        {
-            "key": "drpy2_西瓜影视",
-            "name": "📺西瓜影视js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/西瓜影视.js"
-        },
-        {
-            "key": "py_麻雀",
-            "name": "📺麻雀视频py",
-            "type": 3,
-            "api": "./py/麻雀视频.py"
-        },
-        {
-            "key": "py_皮皮影视",
-            "name": "📺皮皮影视py",
-            "type": 3,
-            "api": "./py/皮皮影视.py"
-        },
-        {
-            "key": "py_爱一帆",
-            "name": "📺爱一帆py",
-            "type": 3,
-            "api": "./py/爱一帆.py"
-        },
-        {
-            "key": "py_飞快TV",
-            "name": "📺飞快TVpy",
-            "type": 3,
-            "api": "./py/飞快TV.py"
-        },
-        {
-            "key": "旺旺影视",
-            "name": "🐶旺旺┃影视xbpq",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "http://rihou.cc:88/xb/旺旺影视.json",
-            "jar": "http://rihou.cc:88/jar/xbpq.jar"
-        },
-        {
-            "key": "金牌影院",
-            "name": "🥇金牌┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://dtqj.ggtvb.cc/dtjp.txt",
-                "datakey": "eecbio48dsq131ee",
-                "api": "2"
-            }
-        },
-        {
-            "key": "drpy2_金牌影院",
-            "name": "金牌影视js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/金牌影视.js"
-        },
-        {
             "key": "海龟JS",
-            "name": "海龟",
+            "name": "💜海龟影视",
             "type": 3,
             "api": "./js/海龟.js",
             "style": {
@@ -587,7 +429,7 @@
         },
         {
             "key": "永乐Js",
-            "name": "永乐",
+            "name": "💜永乐影视",
             "type": 3,
             "api": "./js/永乐.js",
             "style": {
@@ -598,7 +440,7 @@
         },
         {
             "key": "两个BTpy",
-            "name": "2BT",
+            "name": "💜2BT",
             "api": "./py/2bt.py",
             "filterable": 1,
             "quickSearch": 1,
@@ -607,113 +449,12 @@
         },
         {
             "key": "界影PY",
-            "name": "界影",
+            "name": "💜界影试",
             "api": "./py/界影.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
-        },
-        {
-            "key": "爱看机器人",
-            "name": "🚒爱看",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/爱看机器人.js"
-        },
-        {
-            "key": "4KVM1",
-            "name": "4KVM",
-            "type": 3,
-            "api": "./py/4KVM.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "茶杯狐",
-            "name": "🦊茶狐┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/茶杯狐.js"
-        },
-        {
-            "key": "月光影视",
-            "name": "🌛月光┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/月光影视.js"
-        },
-        {
-            "key": "耐看",
-            "name": "👀耐看┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/耐看.js"
-        },
-        {
-            "key": "韩剧看看",
-            "name": "🇰🇷韩剧┃看看",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "http://rihou.cc:88/xb/韩剧看看.json",
-            "jar": "http://rihou.cc:88/jar/xbpq.jar"
-        },
-        {
-            "key": "泥泥视频",
-            "name": "🍋泥泥┃视频",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/泥泥视频.js"
-        },
-        {
-            "key": "闪影BOX",
-            "name": "🤯臻享┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchTop": true,
-            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
-            "key": "王某某影视",
-            "name": "🎈王某┃APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
-                "datakey": "88689667dce61725"
-            }
-        },
-        {
-            "key": "全能短剧",
-            "name": "😒短剧┃AI¹",
-            "type": 3,
-            "api": "csp_DuanJuCen",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "classes": "./json/duanjucen.json"
-            },
-            "类型": "短剧"
-        },
-        {
-            "key": "星之阁短剧AI",
-            "name": "😒短剧┃AI²",
-            "type": 3,
-            "api": "csp_XingZhiGe",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "classes": "./json/duanjucen.json"
-            },
-            "类型": "短剧"
-        },
-        {
-            "key": "聚合短剧",
-            "name": "🐑短剧┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
         {
             "key": "bilimd",
@@ -815,14 +556,20 @@
             "timeout": 20
         },
         {
-            "key": "csp_ShuaiJiao",
-            "name": "🤺摔跤┃体育",
+            "key": "配置中心",
+            "name": "🅱️哔哩哔哩登陆",
             "type": 3,
-            "api": "csp_ShuaiJiao",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "changeable": 0,
+            "indexs": 0,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            },
             "ext": {
-                "sites": ""
+                "sp": "Config"
             }
         },
         {
@@ -845,6 +592,17 @@
             "timeout": 10
         },
         {
+            "key": "drpy2_虎牙直播",
+            "name": "🐯虎牙直播2js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/虎牙直播.js"
+        },
+        {
             "key": "KuaiShou",
             "name": "🌇｜快手｜直播",
             "type": 3,
@@ -859,25 +617,28 @@
             }
         },
         {
-            "key": "drpy2_虎牙直播",
-            "name": "💻虎牙直播js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "playerType": 2,
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/虎牙直播.js"
-        },
-        {
             "key": "py_哔哩直播",
-            "name": "💻哔哩直播py",
+            "name": "🅱️哔哩直播py",
             "type": 3,
             "api": "./py/哔哩直播.py"
         },
         {
+            "key": "凤凰FM",
+            "name": "💙【广播】凤凰┃FM",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/凤凰FM.js"
+        },
+        {
+            "key": "蜻蜓FM",
+            "name": "💙【广播】蜻蜓┃FM",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
+        },
+        {
             "key": "cat_喜马拉雅",
-            "name": "💻喜马拉雅cat",
+            "name": "💙【广播】喜马拉雅cat",
             "type": 3,
             "api": "./js/喜马拉雅.js",
             "searchable": 1,
@@ -886,25 +647,230 @@
             "ext": ""
         },
         {
+            "key": "全能短剧",
+            "name": "😒短剧┃AI¹",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
+            },
+            "类型": "短剧"
+        },
+        {
+            "key": "星之阁短剧AI",
+            "name": "😒短剧┃AI²",
+            "type": 3,
+            "api": "csp_XingZhiGe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
+            },
+            "类型": "短剧"
+        },
+        {
+            "key": "聚合短剧",
+            "name": "🐑短剧┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/聚合短剧.js"
+        },
+        {
+            "key": "星星",
+            "name": "星星影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./jar/xbpq.jar",
+            "ext": {
+                "请求头": "手机",
+                "主页url": "https://www.guosheji.com/",
+                "数组": "myui-vodlist__thumb&&</a>",
+                "简介": "简介：&&</a>",
+                "副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "线路数组": "#playlist&&</li>[不包含:秒播]",
+                "线路标题": "+>&&</a>+",
+                "搜索标题": "title=\"&&\"",
+                "搜索副标题": "text-right\">&&</span>",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "播放数组": "<ul class=\"myui-content__list&&</ul>",
+                "播放标题": ">&&</a>[不包含:дрр滈凊]",
+                "播放列表": "<li&&</li>",
+                "跳转解析": "默认$https://jiexi.ddmz6.com/api/publicApi.php?url=",
+                "搜索url": "https://www.guosheji.com/xingsc/{wd}-------------.html",
+                "嗅探词": ".m3u8#.mp4#.flv#.mp3#.m4a",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+                "分类url": "https://www.guosheji.com/xingsw/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/;;ak"
+            }
+        },
+        {
+            "key": "加密狗",
+            "name": "麻花影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/麻花影视.json"
+        },
+        {
+            "key": "全能",
+            "name": "全能影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/全能影视.json"
+        },
+        {
+            "key": "cat_kan影视",
+            "name": "看影视",
+            "type": 3,
+            "api": "./js/cat_kan影视.js"
+        },
+        {
+            "key": "大猫",
+            "name": "大猫影院",
+            "type": 3,
+            "api": "./js/cat_大猫影院.js"
+        },
+        {
+            "key": "首播",
+            "name": "首播影院",
+            "type": 3,
+            "api": "./js/cat_首播影院.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "📺荐片cat",
+            "type": 3,
+            "api": "./js/荐片cat.js"
+        },
+        {
+            "key": "drpy2_缘觉影视",
+            "name": "📺缘觉影视js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/缘觉影视.js"
+        },
+        {
+            "key": "drpy2_西瓜影视",
+            "name": "📺西瓜影视js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/西瓜影视.js"
+        },
+        {
+            "key": "py_麻雀",
+            "name": "📺麻雀视频py",
+            "type": 3,
+            "api": "./py/麻雀视频.py"
+        },
+        {
+            "key": "py_爱一帆",
+            "name": "📺爱一帆py",
+            "type": 3,
+            "api": "./py/爱一帆.py"
+        },
+        {
+            "key": "py_飞快TV",
+            "name": "📺飞快TVpy",
+            "type": 3,
+            "api": "./py/飞快TV.py"
+        },
+        {
+            "key": "金牌影院",
+            "name": "🥇金牌┃APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "datakey": "eecbio48dsq131ee",
+                "api": "2"
+            }
+        },
+        {
+            "key": "drpy2_金牌影院",
+            "name": "金牌影视js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
+        },
+        {
+            "key": "爱看机器人",
+            "name": "🚒爱看",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/爱看机器人.js"
+        },
+        {
+            "key": "4KVM1",
+            "name": "4KVM",
+            "type": 3,
+            "api": "./py/4KVM.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "月光影视",
+            "name": "🌛月光┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/月光影视.js"
+        },
+        {
+            "key": "耐看",
+            "name": "👀耐看┃（羊）",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/耐看.js"
+        },
+        {
+            "key": "闪影BOX",
+            "name": "🤯臻享┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchTop": true,
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+        },
+        {
+            "key": "王某某影视",
+            "name": "🎈王某┃APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+                "datakey": "88689667dce61725"
+            }
+        },
+        {
             "key": "drpy2_戏曲大全",
-            "name": "👴戏曲大全js",
+            "name": "🖤戏曲大全js",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/戏曲大全.js"
         },
         {
-            "key": "凤凰FM",
-            "name": "📻凤凰┃FM",
+            "key": "csp_ShuaiJiao",
+            "name": "🤺摔跤┃体育",
             "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/凤凰FM.js"
-        },
-        {
-            "key": "蜻蜓FM",
-            "name": "📻蜻蜓┃FM",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
+            "api": "csp_ShuaiJiao",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "sites": ""
+            }
         },
         {
             "key": "song_1a48b",
@@ -943,23 +909,6 @@
                 "ratio": 1.433
             },
             "ext": "./configcenter.json"
-        },
-        {
-            "key": "配置中心",
-            "name": "🅱️哔哩哔哩登陆",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            },
-            "ext": {
-                "sp": "Config"
-            }
         }
     ],
     "doh": [
