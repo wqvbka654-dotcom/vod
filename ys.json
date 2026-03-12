@@ -44,7 +44,7 @@
         },
         {
             "key": "海狗视",
-            "name": "天扬河马秒播",
+            "name": "❤️天扬河马秒播",
             "type": 3,
             "api": "csp_Hmys",
             "changeable": 0,
@@ -57,8 +57,21 @@
             }
         },
         {
+            "key": "九宵视频",
+            "name": "❤️天扬九宵秒播",
+            "type": 3,
+            "api": "csp_Hmys",
+            "ext": {
+                "host": "https://dy.stxbed.com",
+                "app_id": "jiuxiao",
+                "deviceid": "45d8c03dd76e10e1",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "share"
+            }
+        },
+        {
             "key": "csp_Guazi",
-            "name": "天扬瓜子秒播",
+            "name": "❤️天扬瓜子秒播",
             "type": 3,
             "api": "csp_Guazi",
             "searchable": 1,
@@ -66,7 +79,7 @@
         },
         {
             "key": "糯米",
-            "name": "天扬糯米秒播",
+            "name": "❤️天扬糯米秒播",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -81,7 +94,7 @@
         },
         {
             "key": "热播",
-            "name": "天扬热播秒播",
+            "name": "❤️天扬热播秒播",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -97,7 +110,7 @@
         },
         {
             "key": "哇",
-            "name": "天扬哇哇秒播",
+            "name": "❤️天扬哇哇秒播",
             "type": 3,
             "api": "./py/哇哇.py",
             "style": {
@@ -108,7 +121,7 @@
         },
         {
             "key": "金牌影视py",
-            "name": "天扬金牌秒播",
+            "name": "❤️天扬金牌秒播",
             "type": 3,
             "api": "./py/嗷鸣金牌影视.py",
             "searchable": 1,
@@ -121,7 +134,7 @@
         },
         {
             "key": "csp_Jianpian",
-            "name": "🥺荐片┃VOX",
+            "name": "❤️荐片",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -134,11 +147,62 @@
         },
         {
             "key": "喵喵",
-            "name": "天扬喵TV",
+            "name": "❤️天扬喵TV",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
             "ext": "./json/喵TV.json"
+        },
+        {
+            "key": "影666",
+            "name": "❤️天扬4k",
+            "type": 3,
+            "api": "./py/yt.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "华",
+            "name": "❤️花树TV",
+            "type": 3,
+            "api": "./py/hs.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "爱听音乐",
+            "name": "❤️🎶天扬酷音乐带歌词",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "AiMusic"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "MTV1",
+            "name": "❤️🎶天扬易听音乐带歌词",
+            "type": 3,
+            "api": "csp_MusicGuard",
+            "jar": "./jar/fty.jar;md5;70ede5af5668684d4b087a10fa147118",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "58",
@@ -417,38 +481,6 @@
             "api": "http://rihou.cc:88/js/爱看机器人.js"
         },
         {
-            "key": "小羊4K",
-            "name": "🐑小羊┃4K",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://xy4k.com/url.txt",
-                "datakey": "7SDWjknU34zqFbVr"
-            }
-        },
-        {
-            "key": "影探666",
-            "name": "天扬4k",
-            "type": 3,
-            "api": "./py/yt.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "华",
-            "name": "花树tv",
-            "type": 3,
-            "api": "./py/hs.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
             "key": "4KVM1",
             "name": "4KVM",
             "type": 3,
@@ -491,19 +523,6 @@
             "type": 3,
             "api": "http://rihou.cc:88/js/drpy2.min.js",
             "ext": "http://rihou.cc:88/js/泥泥视频.js"
-        },
-        {
-            "key": "永恒视频",
-            "name": "🐁永恒┃APP",
-            "type": 3,
-            "api": "csp_Hmys",
-            "ext": {
-                "host": "https://dy.oogsy.com",
-                "app_id": "yongheng",
-                "deviceid": "92ec8baead8e788b",
-                "versionCode": "10000",
-                "UMENG_CHANNEL": "zhuan"
-            }
         },
         {
             "key": "闪影BOX",
@@ -697,48 +716,8 @@
             "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
         {
-            "key": "爱听音乐",
-            "name": "天扬酷我音乐┃带歌词",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://igdux.top/~kuwo;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "AiMusic"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "kw",
-            "name": "天扬🎶酷我音乐🎶",
-            "type": 3,
-            "api": "./py/kw.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "MTV1",
-            "name": "🎙️易听音乐┃带歌词",
-            "type": 3,
-            "api": "csp_MusicGuard",
-            "jar": "./jar/fty.jar;md5;70ede5af5668684d4b087a10fa147118",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "bilimd",
-            "name": "🅱哔哩┃影视",
+            "name": "🅱️哔哩┃影视",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -757,7 +736,7 @@
         },
         {
             "key": "bili",
-            "name": "🅱哔哩┃合集",
+            "name": "🅱️哔哩┃合集",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -777,7 +756,7 @@
         },
         {
             "key": "biliych",
-            "name": "🅱哔哩┃歌曲",
+            "name": "🅱️哔哩┃歌曲",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -797,7 +776,7 @@
         },
         {
             "key": "bilixs",
-            "name": "🅱哔哩┃相声",
+            "name": "🅱️哔哩┃相声",
             "type": 3,
             "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "api": "csp_AweSomeGuard",
@@ -817,7 +796,7 @@
         },
         {
             "key": "bilixp",
-            "name": "🅱哔哩┃小品",
+            "name": "🅱️哔哩┃小品",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -941,7 +920,7 @@
         },
         {
             "key": "networkdb",
-            "name": "🗄️｜网络数据库合集",
+            "name": "🗄️｜数据库合集",
             "type": 3,
             "api": "csp_NetworkDB",
             "searchable": 1,
@@ -967,7 +946,7 @@
         },
         {
             "key": "配置中心",
-            "name": "哔哩哔哩登陆",
+            "name": "🅱️哔哩哔哩登陆",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
