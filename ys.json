@@ -4,6 +4,43 @@
     "logo": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
     "lives": [
         {
+            "name": "TV直播",
+            "type": 0,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+        },
+        {
+            "name": "日后TV直播",
+            "type": 0,
+            "url": "http://rihou.cc:555/gggg.nzk",
+            "playerType": 2,
+            "ua": "okhttp/3",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
+        },
+        {
+            "name": "潇雨萌萌TV直播",
+            "type": 0,
+            "url": "https://ds65.tv1288.xyz",
+            "playerType": 1
+        },
+        {
+            "name": "风云TV直播",
+            "type": 1,
+            "url": "http://iptv.4666888.xyz/FYTV.txt"
+        },
+        {
+            "name": "宫殿TV直播",
+            "type": 0,
+            "url": "https://gongdian.top/tv/iptv",
+            "playerType": 1,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+        },
+        {
+            "name": "易发TV直播",
+            "type": 1,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+        },
+        {
             "name": "live",
             "type": 0,
             "url": "https://igdux.top/ByHt",
