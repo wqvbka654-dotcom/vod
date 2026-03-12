@@ -356,35 +356,6 @@
             ]
         },
         {
-            "key": "爱听音乐",
-            "name": "❤️🎶天扬酷音乐带歌词",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "AiMusic"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "MTV1",
-            "name": "❤️🎶天扬易听音乐带歌词",
-            "type": 3,
-            "api": "csp_MusicGuard",
-            "jar": "./jar/fty.jar;md5;70ede5af5668684d4b087a10fa147118",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "58",
             "name": "🧡58影视",
             "type": 3,
@@ -415,6 +386,17 @@
             "api": "csp_XYQHiker",
             "jar": "https://gitee.com/cfty654/ty/raw/master/jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
+        },
+        {
+            "key": "4KVM1",
+            "name": "🧡4KVM",
+            "type": 3,
+            "api": "./py/4KVM.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
         },
         {
             "key": "海龟JS",
@@ -573,8 +555,75 @@
             }
         },
         {
+            "key": "爱听音乐",
+            "name": "❤️🎶天扬酷音乐带歌词",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "AiMusic"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "MTV1",
+            "name": "❤️🎶天扬易听音乐带歌词",
+            "type": 3,
+            "api": "csp_MusicGuard",
+            "jar": "./jar/fty.jar;md5;70ede5af5668684d4b087a10fa147118",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_酷音乐",
+            "name": "❤️🎶酷音乐",
+            "type": 3,
+            "api": "./py/哭我.py"
+        },
+        {
+            "key": "py_酷音乐",
+            "name": "❤️🎶酷音乐尊享",
+            "type": 3,
+            "api": "./py/哭我至尊.py"
+        },
+        {
+            "key": "drpy2_可口",
+            "name": "❤️🎶可口音乐",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/扣扣.js"
+        },
+        {
+            "key": "py_爱玩音乐",
+            "name": "❤️🎶爱玩音乐",
+            "type": 3,
+            "api": "./py/爱玩音乐.py"
+        },
+        {
+            "key": "py_爱听音乐",
+            "name": "❤️🎶爱听音乐",
+            "type": 3,
+            "api": "./py/爱听音乐.py"
+        },
+        {
+            "key": "drpy2_戏曲大全",
+            "name": "❤️🎶戏曲大全",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/戏曲大全.js"
+        },
+        {
             "key": "虎牙直播",
-            "name": "🐯虎牙┃直播",
+            "name": "🐯虎牙直播",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -593,7 +642,7 @@
         },
         {
             "key": "drpy2_虎牙直播",
-            "name": "🐯虎牙直播2js",
+            "name": "🐯虎牙直播2",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "playerType": 2,
@@ -604,7 +653,7 @@
         },
         {
             "key": "KuaiShou",
-            "name": "🌇｜快手｜直播",
+            "name": "🌇快手直播",
             "type": 3,
             "api": "csp_KuaiShou",
             "changeable": 0,
@@ -618,27 +667,27 @@
         },
         {
             "key": "py_哔哩直播",
-            "name": "🅱️哔哩直播py",
+            "name": "🅱️哔哩直播",
             "type": 3,
             "api": "./py/哔哩直播.py"
         },
         {
             "key": "凤凰FM",
-            "name": "💙【广播】凤凰┃FM",
+            "name": "💙【广播】凤凰FM",
             "type": 3,
             "api": "http://rihou.cc:88/js/drpy2.min.js",
             "ext": "http://rihou.cc:88/js/凤凰FM.js"
         },
         {
             "key": "蜻蜓FM",
-            "name": "💙【广播】蜻蜓┃FM",
+            "name": "💙【广播】蜻蜓FM",
             "type": 3,
             "api": "http://rihou.cc:88/js/drpy2.min.js",
             "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
         },
         {
             "key": "cat_喜马拉雅",
-            "name": "💙【广播】喜马拉雅cat",
+            "name": "💙【广播】喜马拉雅",
             "type": 3,
             "api": "./js/喜马拉雅.js",
             "searchable": 1,
@@ -648,7 +697,7 @@
         },
         {
             "key": "全能短剧",
-            "name": "😒短剧┃AI¹",
+            "name": "短剧AI¹",
             "type": 3,
             "api": "csp_DuanJuCen",
             "searchable": 1,
@@ -661,7 +710,7 @@
         },
         {
             "key": "星之阁短剧AI",
-            "name": "😒短剧┃AI²",
+            "name": "短剧AI²",
             "type": 3,
             "api": "csp_XingZhiGe",
             "searchable": 1,
@@ -674,7 +723,7 @@
         },
         {
             "key": "聚合短剧",
-            "name": "🐑短剧┃（羊）",
+            "name": "短剧合集",
             "type": 3,
             "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
@@ -788,7 +837,7 @@
         },
         {
             "key": "金牌影院",
-            "name": "🥇金牌┃APP",
+            "name": "🥇金牌APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -808,58 +857,9 @@
         },
         {
             "key": "爱看机器人",
-            "name": "🚒爱看",
+            "name": "爱看",
             "type": 3,
             "api": "http://rihou.cc:88/js/爱看机器人.js"
-        },
-        {
-            "key": "4KVM1",
-            "name": "4KVM",
-            "type": 3,
-            "api": "./py/4KVM.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "月光影视",
-            "name": "🌛月光┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/月光影视.js"
-        },
-        {
-            "key": "耐看",
-            "name": "👀耐看┃（羊）",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/耐看.js"
-        },
-        {
-            "key": "闪影BOX",
-            "name": "🤯臻享┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchTop": true,
-            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
-            "key": "王某某影视",
-            "name": "🎈王某┃APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
-                "datakey": "88689667dce61725"
-            }
-        },
-        {
-            "key": "drpy2_戏曲大全",
-            "name": "🖤戏曲大全js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/戏曲大全.js"
         },
         {
             "key": "csp_ShuaiJiao",
@@ -874,7 +874,7 @@
         },
         {
             "key": "song_1a48b",
-            "name": "🗄️｜网络数据库KTV",
+            "name": "🗄️数据库KTV",
             "type": 3,
             "api": "csp_KTV",
             "searchable": 1,
@@ -886,7 +886,7 @@
         },
         {
             "key": "networkdb",
-            "name": "🗄️｜数据库合集",
+            "name": "🗄️数据库合集",
             "type": 3,
             "api": "csp_NetworkDB",
             "searchable": 1,
@@ -898,7 +898,7 @@
         },
         {
             "key": "配置",
-            "name": "🗄️网络数据配制",
+            "name": "🗄️数据配制",
             "type": 3,
             "api": "csp_ConfigCenter",
             "searchable": 0,
