@@ -734,7 +734,7 @@
         },
         {
             "key": "全能短剧",
-            "name": "短剧AI¹",
+            "name": "🤎短剧AI¹",
             "type": 3,
             "api": "csp_DuanJuCen",
             "searchable": 1,
@@ -747,7 +747,7 @@
         },
         {
             "key": "星之阁短剧AI",
-            "name": "短剧AI²",
+            "name": "🤎短剧AI²",
             "type": 3,
             "api": "csp_XingZhiGe",
             "searchable": 1,
@@ -760,7 +760,7 @@
         },
         {
             "key": "聚合短剧",
-            "name": "短剧合集",
+            "name": "🤎短剧合集",
             "type": 3,
             "api": "http://rihou.cc:88/js/聚合短剧.js"
         },
@@ -900,7 +900,7 @@
         },
         {
             "key": "csp_ShuaiJiao",
-            "name": "🤺摔跤┃体育",
+            "name": "🤼‍♀️摔跤",
             "type": 3,
             "api": "csp_ShuaiJiao",
             "searchable": 0,
