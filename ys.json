@@ -198,6 +198,17 @@
             "changeable": 1
         },
         {
+            "key": "小羊4K",
+            "name": "❤️小羊4K",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://qjappcms410.xy4k.com",
+                "datakey": "mC6kG4mI1uM8tS4o",
+                "api": 2
+            }
+        },
+        {
             "key": "华",
             "name": "❤️花树TV",
             "type": 3,
