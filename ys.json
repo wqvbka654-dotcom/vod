@@ -712,8 +712,8 @@
             }
         },
         {
-            "key": "爱听音乐",
-            "name": "❤️🎶天扬酷音乐带歌词",
+            "key": "我很酷",
+            "name": "❤️🎧天扬酷音乐",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -726,54 +726,53 @@
             "timeout": 10
         },
         {
-            "key": "MTV1",
-            "name": "❤️🎶天扬易听音乐带歌词",
+            "key": "易听音乐",
+            "name": "❤️🎧天扬易听音乐",
             "type": 3,
-            "api": "csp_MusicGuard",
-            "jar": "./jar/fty.jar;md5;70ede5af5668684d4b087a10fa147118",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "playerType": 2,
-            "searchable": 1,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
             "quickSearch": 0,
-            "changeable": 0
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "ShiJiMusic"
+            },
+            "timeout": 10
         },
         {
             "key": "py_酷音乐",
-            "name": "❤️🎶酷音乐",
+            "name": "❤️🎧酷音乐",
             "type": 3,
             "api": "./py/哭我.py"
         },
         {
             "key": "音乐plus",
-            "name": "❤️🎶酷音乐尊享",
+            "name": "❤️🎧酷音乐尊享",
             "type": 3,
             "api": "./py/plus.py"
         },
         {
             "key": "drpy2_可口",
-            "name": "❤️🎶可口音乐",
+            "name": "❤️🎧可口音乐",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/扣扣.js"
         },
         {
             "key": "py_爱玩音乐",
-            "name": "❤️🎶爱玩音乐",
+            "name": "❤️🎧爱玩音乐",
             "type": 3,
             "api": "./py/爱玩音乐.py"
         },
         {
             "key": "py_爱听音乐",
-            "name": "❤️🎶爱听音乐",
+            "name": "❤️🎧爱听音乐",
             "type": 3,
             "api": "./py/爱听音乐.py"
         },
         {
             "key": "drpy2_戏曲大全",
-            "name": "❤️🎶戏曲大全",
+            "name": "💗🎧戏曲大全",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/戏曲大全.js"
@@ -809,18 +808,23 @@
             "ext": "./js/虎牙直播.js"
         },
         {
-            "key": "KuaiShou",
-            "name": "🌇快手直播",
+            "key": "快手直播",
+            "name": "✌️️快手直播",
             "type": 3,
-            "api": "csp_KuaiShou",
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "timeout": 10,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            }
+            },
+            "ext": {
+                "sp": "KsLive"
+            },
+            "timeout": 10
         },
         {
             "key": "py_哔哩直播",
@@ -853,6 +857,20 @@
             "ext": ""
         },
         {
+            "key": "世界听书",
+            "name": "💙【广播】世界听书",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "BookTing"
+            },
+            "timeout": 10
+        },
+        {
             "key": "全能短剧",
             "name": "🤎短剧AI¹",
             "type": 3,
@@ -883,6 +901,51 @@
             "name": "🤎短剧合集",
             "type": 3,
             "api": "http://rihou.cc:88/js/聚合短剧.js"
+        },
+        {
+            "key": "csp_Jzb",
+            "name": "⚽看球体育",
+            "type": 3,
+            "api": "csp_Jzb",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "sites": ""
+            }
+        },
+        {
+            "key": "瓜子看球",
+            "name": "⚽瓜子看球",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sp": "GzSport"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "88看球",
+            "name": "⚽88看球",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sp": "Kanqiu"
+            },
+            "timeout": 10
         },
         {
             "key": "csp_ShuaiJiao",
