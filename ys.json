@@ -695,23 +695,6 @@
             "timeout": 20
         },
         {
-            "key": "配置中心",
-            "name": "🅱️哔哩哔哩登陆",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            },
-            "ext": {
-                "sp": "Config"
-            }
-        },
-        {
             "key": "我很酷",
             "name": "❤️🎧天扬酷音乐",
             "type": 3,
@@ -995,6 +978,37 @@
                 "ratio": 1.433
             },
             "ext": "./configcenter.json"
+        },
+        {
+            "key": "配置中心",
+            "name": "❤️夸克哔哩登陆❤️",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            },
+            "ext": {
+                "sp": "Config"
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🛴手机┃推送",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Push"
+            },
+            "timeout": 25
         }
     ],
     "doh": [
