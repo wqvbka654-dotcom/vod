@@ -1,11 +1,11 @@
 {
-    "spider": "./jar/vox.jar;md5;3c531ba3864d3ce00a91f396cc9ab33e",
-    "notice": "天扬网盘在线",
+    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;fa94afe08ab9aaeb75a341d51a2730d3",
+    "notice": "❤️天扬网盘在线❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
     "sites": [
         {
             "key": "csp_Douban",
-            "name": "❤️天扬影视列表",
+            "name": "❤️天扬网盘在线❤️",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -36,7 +36,7 @@
         },
         {
             "key": "csp_PanShareUC",
-            "name": "🆘UC┃网盘",
+            "name": "🆘呦西┃网盘",
             "type": 3,
             "api": "csp_PanShareUC",
             "searchable": 1,
@@ -47,8 +47,20 @@
             }
         },
         {
+            "key": "csp_PanShare115",
+            "name": "🆘幺五┃网盘",
+            "type": 3,
+            "api": "csp_PanShare115",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "ext": {
+                "class": "./json/115share.txt"
+            }
+        },
+        {
             "key": "csp_PanShare189",
-            "name": "🆘天翼┃网盘",
+            "name": "🆘风翼┃网盘",
             "type": 3,
             "api": "csp_PanShare189",
             "searchable": 1,
@@ -71,6 +83,18 @@
             }
         },
         {
+            "key": "csp_PanShareThunder",
+            "name": "🆘雷子┃网盘",
+            "type": 3,
+            "api": "csp_PanShareThunder",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 30,
+            "ext": {
+                "class": "./json/thundershare.txt"
+            }
+        },
+        {
             "key": "csp_TgDouban",
             "name": "🥳TG┃豆瓣",
             "type": 3,
@@ -86,6 +110,7 @@
             "key": "csp_PanSou",
             "name": "🥺盘搜┃搜索",
             "type": 3,
+            "hide": 1,
             "api": "csp_PanSou",
             "searchable": 1,
             "changeable": 1,
@@ -105,6 +130,7 @@
             "key": "csp_PgDouban",
             "name": "😊PG┃豆瓣",
             "type": 3,
+            "hide": 1,
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
@@ -118,37 +144,82 @@
             "key": "夸克推送",
             "name": "👊夸克┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=quark"
         },
         {
             "key": "百度推送",
             "name": "✊百度┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=baidu"
         },
         {
             "key": "UC推送",
             "name": "☝️优熙┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=uc"
         },
         {
             "key": "天翼推送",
             "name": "✋天翼┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
             "key": "123推送",
             "name": "✌️123┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=123"
         },
         {
             "key": "移动推送",
             "name": "👍移动┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=mobile"
+        },
+        {
+            "key": "迅雷",
+            "name": "🤝迅雷┃推送",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=xunlei"
+        },
+        {
+            "key": "csp_Panta91",
+            "name": "🐹盘Ta┃YD",
+            "type": 3,
+            "api": "csp_Panta91",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 1,
+            "timeout": 30,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.91panta.cn",
+                "proxy": "noproxy",
+                "classes": "./json/panta.json"
+            }
+        },
+        {
+            "key": "csp_GuanYing",
+            "name": "😂观影┃4K",
+            "type": 3,
+            "api": "csp_GuanYing",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/guanying.json",
+                "sites": "https://www.gyg.la,https://www.gyg.si,https://www.gying.net,https://www.gying.org,https://www.gying.si,https://www.gying.in"
+            }
         },
         {
             "key": "csp_SeedHub",
@@ -158,6 +229,20 @@
             "timeout": 30,
             "searchable": 1,
             "changeable": 0
+        },
+        {
+            "key": "csp_Wofox",
+            "name": "🐱4K┃Fox",
+            "type": 3,
+            "api": "csp_Wofox",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "",
+                "proxy": "proxy"
+            }
         },
         {
             "key": "csp_Xxzn",
@@ -171,6 +256,24 @@
             "ext": {
                 "filters": "./json/xxzn.json",
                 "sites": "https://4kzn.com"
+            }
+        },
+        {
+            "key": "csp_Leijing",
+            "name": "🐳雷鲸┃网盘",
+            "type": 3,
+            "api": "csp_Leijing",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
+                "proxy": "noproxy",
+                "classes": "./json/leijing.json"
             }
         },
         {
@@ -279,21 +382,26 @@
             }
         },
         {
+            "key": "多多网盘",
+            "name": "😘多多┃网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "sites": "https://tv.yydsys.top/",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
             "key": "短裤",
             "name": "🐥短剧┃推送",
             "type": 4,
+            "hide": 1,
             "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
-        },
-        {
-            "key": "csp_Kan90",
-            "name": "😇最全┃短剧",
-            "type": 3,
-            "api": "csp_Kan90",
-            "timeout": 30,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "类型": "短剧"
         },
         {
             "key": "夸克短剧",
@@ -378,7 +486,32 @@
             "timeout": 30,
             "quickSearch": 1,
             "searchable": 1,
+            "hide": 1,
             "type": 3
+        },
+        {
+            "key": "AList",
+            "name": "😇网盘┃Alist",
+            "type": 3,
+            "api": "csp_AList",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "playerType": 2,
+            "ext": "./json/alist.json"
+        },
+        {
+            "key": "WebDAV",
+            "name": "🙃Web┃DAV",
+            "type": 3,
+            "api": "csp_WebDAV",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "playerType": 2,
+            "ext": "./json/webdav.json"
         },
         {
             "key": "push_agent",
@@ -580,10 +713,72 @@
     "hosts": [],
     "parses": [
         {
-            "name": "",
+            "name": "测试解析",
             "type": 1,
-            "url": ""
+            "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
+        },
+        {
+            "name": "手动解析①",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析②",
+            "type": 0,
+            "url": "https://jx.nnxv.cn/tv.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析③",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析④",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析⑤",
+            "type": 0,
+            "url": "https://okjx.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
         }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
     ],
     "ads": [
         "static-mozai.4gtv.tv",
