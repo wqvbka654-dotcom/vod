@@ -15,6 +15,18 @@
             "ext": "./json/douban.json"
         },
         {
+            "key": "豆瓣",
+            "name": "点击给权限",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "changeable": 1,
+            "jar": "./jar/ok.jar",
+            "ext": {
+                "sp": "Douban"
+            }
+        },
+        {
             "key": "csp_Config",
             "name": "😊配置┃中心",
             "type": 3,
