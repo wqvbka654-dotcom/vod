@@ -1,11 +1,11 @@
 {
     "spider": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-    "notice": "天扬网盘线路",
+    "notice": "❤️天扬网盘线路❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "天扬网盘专线",
+            "name": "❤️天扬网盘专线❤️",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -29,19 +29,6 @@
             "ext": {
                 "sp": "Config"
             }
-        },
-        {
-            "key": "玩偶",
-            "name": "👽玩偶┃4K",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "sp": "Wogg"
-            },
-            "timeout": 30
         },
         {
             "key": "二小",
@@ -72,6 +59,19 @@
                 "sp": "Star2"
             },
             "timeout": 25
+        },
+        {
+            "key": "玩偶",
+            "name": "👽玩偶┃4K",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "sp": "Wogg"
+            },
+            "timeout": 30
         },
         {
             "key": "立播版",
@@ -210,6 +210,20 @@
                 "sp": "YunJi"
             },
             "timeout": 25
+        },
+        {
+            "key": "4K指南",
+            "name": "⭐指南┃4K原盘",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "ext": {
+                "sp": "Zn4k"
+            },
+            "timeout": 30
         },
         {
             "key": "盘他",
