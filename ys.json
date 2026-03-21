@@ -115,6 +115,13 @@
             "changeable": 1
         },
         {
+            "key": "三秋影视",
+            "name": "❤️天扬三秋影视",
+            "type": 3,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/3q.jar;md5;d819b1d03d82966823a55522bf32b32a",
+            "api": "csp_App3Q"
+        },
+        {
             "key": "糯米",
             "name": "❤️天扬糯米秒播",
             "type": 3,
