@@ -194,6 +194,14 @@
             "ext": "./json/喵TV.json"
         },
         {
+            "key": "秒播影院",
+            "name": "❤️秒播影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/秒播影院.json"
+        },
+        {
             "key": "影666",
             "name": "❤️天扬4k",
             "type": 3,
