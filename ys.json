@@ -194,6 +194,14 @@
             "ext": "./json/喵TV.json"
         },
         {
+            "key": "云影",
+            "name": "❤️云影视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xbpq.jar",
+            "ext": "./json/云影.json"
+        },
+        {
             "key": "秒播影院",
             "name": "❤️秒播影院",
             "type": 3,
@@ -261,7 +269,7 @@
         },
         {
             "key": "泥本地",
-            "name": "❤️泥泥视频本地",
+            "name": "❤️泥泥视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/泥泥视频.js"
