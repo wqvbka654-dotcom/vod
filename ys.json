@@ -1,7 +1,7 @@
 {
     "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;bb065eb8d4980b79420d3b64ce2ac36d",
     "notice": "❤️天扬影视❤️",
-    "logo": "https://gitee.com/cfty654/vod/raw/main/1.jpg",
+    "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "lives": [
         {
             "name": "TV直播",
@@ -260,11 +260,11 @@
             "api": "./js/3Q影视.js"
         },
         {
-            "key": "泥泥视频",
-            "name": "❤️天扬泥泥视频",
+            "key": "泥本地",
+            "name": "❤️泥泥视频本地",
             "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/泥泥视频.js"
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/泥泥视频.js"
         },
         {
             "key": "人人视频6",
