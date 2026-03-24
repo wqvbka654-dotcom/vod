@@ -153,6 +153,12 @@
             "timeout": 10
         },
         {
+            "key": "csp_rbpy",
+            "name": "❤️天扬热播PY",
+            "type": 3,
+            "api": "./py/热播.py"
+        },
+        {
             "key": "金牌影视py",
             "name": "❤️天扬金牌秒播",
             "type": 3,
@@ -441,6 +447,17 @@
             ]
         },
         {
+            "key": "csp_dytt",
+            "name": "❤️天扬天堂采集",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": "http://cmstt.lyyytv.cn/api.php/app/"
+        },
+        {
             "key": "py_农民",
             "name": "🧡农民影视",
             "type": 3,
@@ -632,27 +649,8 @@
             "ext": "./js/西瓜影视.js"
         },
         {
-            "key": "bilimd",
-            "name": "🅱️哔哩┃影视",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "sp": "Bilimd"
-            },
-            "timeout": 10
-        },
-        {
             "key": "bili",
-            "name": "🅱️哔哩┃合集",
+            "name": "🅱️天扬哔哩大合集",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -666,7 +664,7 @@
             },
             "ext": {
                 "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+                "json": "./json/哔哩ok大集合.json"
             },
             "timeout": 20
         },
