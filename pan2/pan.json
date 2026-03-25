@@ -479,23 +479,21 @@
             "type": 3
         },
         {
-            "key": "bili",
-            "name": "🅱哔哩┃合集",
+            "key": "本地播放",
+            "name": "🐼本地┃播放",
             "type": 3,
             "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 0,
+            "searchable": 0,
             "changeable": 0,
-            "filterable": 1,
+            "indexs": 0,
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
-                "type": "rect",
-                "ratio": 1.433
+                "type": "list"
             },
+            "timeout": 5,
             "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
-            },
-            "timeout": 20
+                "sp": "Local"
+            }
         },
         {
             "key": "push_agent",
