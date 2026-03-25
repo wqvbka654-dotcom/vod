@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;bb065eb8d4980b79420d3b64ce2ac36d",
+    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
     "notice": "❤️天扬影视❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "lives": [
@@ -49,15 +49,16 @@
     ],
     "sites": [
         {
-            "key": "csp_Douban",
+            "key": "豆瓣",
             "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "csp_Douban",
+            "api": "csp_AweSomeGuard",
             "searchable": 0,
             "changeable": 1,
-            "timeout": 30,
-            "indexs": 0,
-            "ext": "./json/douban.json"
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Douban"
+            }
         },
         {
             "key": "wv_yszb",
@@ -91,19 +92,6 @@
                 "deviceid": "6b3927d7bbd112d6",
                 "versionCode": "20000",
                 "UMENG_CHANNEL": "guan"
-            }
-        },
-        {
-            "key": "九宵视频",
-            "name": "❤️天扬九宵秒播",
-            "type": 3,
-            "api": "csp_Hmys",
-            "ext": {
-                "host": "https://dy.stxbed.com",
-                "app_id": "jiuxiao",
-                "deviceid": "45d8c03dd76e10e1",
-                "versionCode": "10000",
-                "UMENG_CHANNEL": "share"
             }
         },
         {
