@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
+    "spider": "./jar/vox.jar",
     "notice": "❤️天扬网盘在线❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "sites": [
@@ -13,18 +13,6 @@
             "timeout": 60,
             "indexs": 1,
             "ext": "./json/douban.json"
-        },
-        {
-            "key": "豆瓣",
-            "name": "点击给权限",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "changeable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Douban"
-            }
         },
         {
             "key": "csp_Config",
