@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
+    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
     "notice": "❤️天扬影视❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "lives": [
@@ -49,16 +49,15 @@
     ],
     "sites": [
         {
-            "key": "豆瓣",
+            "key": "csp_Douban",
             "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "csp_AweSomeGuard",
+            "api": "csp_Douban",
             "searchable": 0,
             "changeable": 1,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Douban"
-            }
+            "timeout": 60,
+            "indexs": 0,
+            "ext": "./json/douban.json"
         },
         {
             "key": "wv_yszb",
