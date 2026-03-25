@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar",
+    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
     "notice": "❤️天扬网盘在线❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "sites": [
@@ -477,6 +477,25 @@
             "searchable": 1,
             "hide": 1,
             "type": 3
+        },
+        {
+            "key": "bili",
+            "name": "🅱哔哩┃合集",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "sp": "Bili",
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+            },
+            "timeout": 20
         },
         {
             "key": "push_agent",
