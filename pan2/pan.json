@@ -1,11 +1,22 @@
 {
-    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
+    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
     "notice": "❤️天扬网盘在线❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "sites": [
         {
-            "key": "豆瓣",
+            "key": "csp_Douban",
             "name": "❤️天扬网盘在线❤️",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "timeout": 60,
+            "indexs": 1,
+            "ext": "./json/douban.json"
+        },
+        {
+            "key": "豆瓣",
+            "name": "点击给权限",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
@@ -102,7 +113,7 @@
             "api": "csp_TgDouban",
             "searchable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json"
             }
@@ -115,7 +126,7 @@
             "api": "csp_PanSou",
             "searchable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "include": [
                     "HDR",
@@ -135,10 +146,10 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "tgsearchers3,yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,yeqingjie_GJG666,PanjClub,guoman4K,alyp_1,kuake_yppan,yunpanuc,BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd,shareAliyun,zaihuayun,ali_yppan"
+                "channel": "yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,dianying4K,yeqingjie_GJG666,PanjClub,guoman4K,alyp_1,kuake_yppan,yunpanuc,BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd,shareAliyun,zaihuayun,ali_yppan"
             }
         },
         {
@@ -198,7 +209,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "style": {
                 "type": "list"
             },
@@ -215,11 +226,11 @@
             "api": "csp_GuanYing",
             "searchable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "cookie": "",
                 "filters": "./json/guanying.json",
-                "sites": "https://www.gyg.la,https://www.gyg.si,https://www.gying.net,https://www.gying.org,https://www.gying.si,https://www.gying.in"
+                "sites": "https://www.xn--kivn76b41nnhi.com/,https://www.xn--10vr61a3xc5x3b.com/,https://www.xn--dpqv20e8ug6r8a.com/,https://www.xn--74qz10cqsltibh40akss.com/"
             }
         },
         {
@@ -227,23 +238,9 @@
             "name": "🎳Seed┃Hub",
             "type": 3,
             "api": "csp_SeedHub",
-            "timeout": 30,
+            "timeout": 60,
             "searchable": 1,
             "changeable": 0
-        },
-        {
-            "key": "csp_Wofox",
-            "name": "🐱4K┃Fox",
-            "type": 3,
-            "api": "csp_Wofox",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "ext": {
-                "sites": "",
-                "proxy": "proxy"
-            }
         },
         {
             "key": "csp_Xxzn",
@@ -253,7 +250,7 @@
             "filterable": 1,
             "searchable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/xxzn.json",
                 "sites": "https://4kzn.com"
@@ -282,7 +279,7 @@
             "name": "😁玩偶┃哥哥",
             "type": 3,
             "api": "csp_Wogg",
-            "timeout": 30,
+            "timeout": 60,
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
@@ -300,7 +297,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "sites": "https://woog.nxog.eu.org",
                 "filters": "./json/wogg2.json",
@@ -315,7 +312,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "sites": "http://fmao.shop",
                 "filters": "./json/wogg2.json",
@@ -330,7 +327,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "sites": "https://sd.sduc.site",
                 "filters": "./json/wogg2.json",
@@ -345,9 +342,9 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
-                "sites": "https://wexwp.cc",
+                "sites": "https://2xiaopan.top",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -360,7 +357,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "sites": "https://www.muou.site",
                 "filters": "./json/wogg2.json",
@@ -375,9 +372,9 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
-                "sites": "https://mihdr.top",
+                "sites": "https://zhizhen1.top",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -390,7 +387,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": {
                 "sites": "https://tv.yydsys.top/",
                 "filters": "./json/wogg2.json",
@@ -405,11 +402,22 @@
             "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
         },
         {
+            "key": "csp_Kan90",
+            "name": "😇最全┃短剧",
+            "type": 3,
+            "api": "csp_Kan90",
+            "timeout": 60,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "类型": "短剧"
+        },
+        {
             "key": "夸克短剧",
             "name": "🌽夸克┃短剧",
             "type": 3,
             "api": "csp_XBPQ",
-            "timeout": 30,
+            "timeout": 60,
             "ext": "./xb/夸克短剧.json",
             "jar": "./jar/xbpq.jar",
             "类型": "短剧"
@@ -418,7 +426,7 @@
             "key": "短剧百度",
             "name": "🥦短剧┃百度",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "csp_XBPQ",
             "ext": "./xb/短剧百度.json",
             "jar": "./jar/xbpq.jar",
@@ -428,7 +436,7 @@
             "key": "短剧夸克",
             "name": "🍆短剧┃夸克",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "csp_XBPQ",
             "ext": "./xb/短剧夸克.json",
             "jar": "./jar/xbpq.jar",
@@ -438,37 +446,29 @@
             "key": "爱看资源网",
             "name": "🚘爱看┃网盘",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱看资源网.js"
-        },
-        {
-            "key": "夸克影视",
-            "name": "💕夸克┃影视",
-            "type": 3,
-            "timeout": 30,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/夸克影视.js"
         },
         {
             "key": "cat_夸克影院",
             "name": "👶夸克┃影院",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "./js/夸克影院.js"
         },
         {
             "key": "cat_HDmoli",
             "name": "⛵HDmoli┃影院",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "./js/HDmoli.js"
         },
         {
             "key": "米盘搜索",
             "name": "🌾米盘┃搜索",
             "type": 3,
-            "timeout": 30,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/米盘搜索.js"
         },
@@ -484,35 +484,11 @@
             "name": "🤒盘友┃搜索",
             "api": "./py/盘友圈.py",
             "filterable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "quickSearch": 1,
             "searchable": 1,
             "hide": 1,
             "type": 3
-        },
-        {
-            "key": "AList",
-            "name": "😇网盘┃Alist",
-            "type": 3,
-            "api": "csp_AList",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "playerType": 2,
-            "ext": "./json/alist.json"
-        },
-        {
-            "key": "WebDAV",
-            "name": "🙃Web┃DAV",
-            "type": 3,
-            "api": "csp_WebDAV",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "playerType": 2,
-            "ext": "./json/webdav.json"
         },
         {
             "key": "push_agent",
@@ -521,7 +497,7 @@
             "api": "csp_Push",
             "searchable": 0,
             "changeable": 0,
-            "timeout": 30
+            "timeout": 60
         }
     ],
     "doh": [
