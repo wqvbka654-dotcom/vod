@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;55a7f49a5c91afaf66463311afacc421",
+    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;f9e1539c3a64d5f855cf0237f6b9dfe4",
     "notice": "❤️天扬网盘在线❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "sites": [
@@ -477,23 +477,6 @@
             "searchable": 1,
             "hide": 1,
             "type": 3
-        },
-        {
-            "key": "本地播放",
-            "name": "🐼本地┃播放",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "list"
-            },
-            "timeout": 5,
-            "ext": {
-                "sp": "Local"
-            }
         },
         {
             "key": "push_agent",
