@@ -1,0 +1,26 @@
+{
+    "notice": "🧡天扬短剧🧡",
+    "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+    "sites": [
+        {
+            "key": "xy",
+            "name": "🧡星芽短剧🧡",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./星芽.js"
+        },
+        {
+            "key": "qm",
+            "name": "🧡七猫短剧🧡",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./七猫.js"
+        },
+        {
+            "key": "hm",
+            "name": "🧡河马短剧🧡",
+            "type": 3,
+            "api": "./河马.py"
+        }
+    ]
+}
