@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;f9e1539c3a64d5f855cf0237f6b9dfe4",
+    "spider": "https://gitee.com/hjcfty/cfty/raw/master/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
     "notice": "❤️天扬影视❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "lives": [
@@ -146,16 +146,15 @@
             "api": "./py/热播.py"
         },
         {
-            "key": "金牌影视py",
-            "name": "❤️天扬金牌秒播",
+            "key": "金牌GET",
+            "name": "❤️金牌秒播APP",
             "type": 3,
-            "api": "./py/嗷鸣金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
+            "api": "csp_AppGet",
             "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+                "host": "https://qj3.ggtvb.cc",
+                "datakey": "eecbio48dsq13kkk",
+                "init": "V122",
+                "api": 2
             }
         },
         {
