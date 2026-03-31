@@ -140,12 +140,6 @@
             "timeout": 10
         },
         {
-            "key": "csp_rbpy",
-            "name": "❤️天扬热播PY",
-            "type": 3,
-            "api": "./py/热播.py"
-        },
-        {
             "key": "金牌GET",
             "name": "❤️金牌秒播APP",
             "type": 3,
