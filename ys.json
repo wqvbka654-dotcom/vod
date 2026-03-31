@@ -484,7 +484,7 @@
             "name": "🧡拖布影视",
             "type": 3,
             "api": "csp_XYQHiker",
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/Lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
         },
         {
@@ -779,7 +779,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "AiMusic"
             },
@@ -793,7 +793,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "ShiJiMusic"
             },
@@ -876,7 +876,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -924,7 +924,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "BookTing"
             },
@@ -981,7 +981,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "list"
             },
@@ -998,7 +998,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "list"
             },
@@ -1027,7 +1027,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
             "ext": ""
         },
         {
@@ -1039,7 +1039,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
             "ext": ""
         },
         {
@@ -1049,7 +1049,7 @@
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/ty/raw/master/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -1081,7 +1081,7 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "Push"
             },
