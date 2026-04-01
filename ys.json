@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitee.com/hjcfty/cfty/raw/master/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
+    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
     "notice": "❤️天扬影视❤️",
     "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
     "lives": [
@@ -92,17 +92,29 @@
             "api": "./py/本机资源.py"
         },
         {
-            "key": "海狗视",
-            "name": "❤️天扬河马秒播",
+            "key": "极境视频",
+            "name": "❤️河马秒播1",
             "type": 3,
             "api": "csp_Hmys",
-            "changeable": 0,
             "ext": {
                 "host": "https://dy.stxbed.com",
-                "app_id": "shiguang",
-                "deviceid": "6b3927d7bbd112d6",
-                "versionCode": "20000",
-                "UMENG_CHANNEL": "guan"
+                "app_id": "jijing",
+                "deviceid": "cf95610dfb758d63",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
+            }
+        },
+        {
+            "key": "瞬启视频",
+            "name": "❤️河马秒播2",
+            "type": 3,
+            "api": "csp_Hmys",
+            "ext": {
+                "host": "https://dy.oogsy.com/",
+                "app_id": "shunqi",
+                "deviceid": "670cf3a52bc2452f",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
             }
         },
         {
