@@ -1,0 +1,183 @@
+[
+    {
+        "name": "哔哩哔哩",
+        "list": [
+            {
+                "name": "登录哔哩",
+                "key": "setBilibiliCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置cookie"
+            },
+            {
+                "name": "退出登录",
+                "key": "cleanBilibiliCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "清除cookie"
+            }
+        ]
+    },
+    {
+        "name": "夸克网盘",
+        "list": [
+            {
+                "name": "登录",
+                "key": "setQuarkCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置cookie"
+            },
+            {
+                "name": "退出登录",
+                "key": "cleanQuarkCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "清除cookie"
+            },
+            {
+                "name": "多线程",
+                "key": "setQuarkMultiThread",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": ""
+            },
+            {
+                "name": "手动清理",
+                "key": "cleanQuarkTempDir",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "手动清理tv_temp_saved目录全部文件"
+            },
+            {
+                "name": "自动清理",
+                "key": "quarkVideoCacheTime",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置自动清理tv_temp_saved目录文件缓存时间"
+            }
+        ]
+    },
+    {
+        "name": "UC网盘",
+        "list": [
+            {
+                "name": "PC版登录",
+                "key": "setUcCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "超级会员只需要登录PC版"
+            },
+            {
+                "name": "TV版登录",
+                "key": "setUcTvCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "普通用户需要同时登录PC版和TV版"
+            },
+            {
+                "name": "PC版退出",
+                "key": "cleanUcCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "清除Cookie"
+            },
+            {
+                "name": "TV版退出",
+                "key": "cleanUcTvCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "清除Cookie"
+            },
+            {
+                "name": "多线程",
+                "key": "setUcMultiThread",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": ""
+            },
+            {
+                "name": "手动清理",
+                "key": "cleanUcTempDir",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "手动清理tv_temp_saved目录全部文件"
+            },
+            {
+                "name": "自动清理",
+                "key": "ucVideoCacheTime",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置自动清理tv_temp_saved目录文件缓存时间"
+            }
+        ]
+    },
+    {
+        "name": "阿里云盘",
+        "list": [
+            {
+                "name": "退出登录",
+                "key": "cleanAliCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "清除Cookie"
+            },
+            {
+                "name": "登录",
+                "key": "setAliCookie",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置Cookie"
+            },
+            {
+                "name": "多线程",
+                "key": "setAliMultiThread",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": ""
+            },
+            {
+                "name": "手动清理",
+                "key": "cleanAliTempDir",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "手动清理tv_temp_saved目录全部文件"
+            },
+            {
+                "name": "自动清理",
+                "key": "aliVideoCacheTime",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "设置自动清理tv_temp_saved目录文件缓存时间"
+            }
+        ]
+    },
+    {
+        "name": "通用配制",
+        "list": [
+            {
+                "name": "ABI",
+                "key": "abiSelection",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "手动选择ABI"
+            },
+            {
+                "name": "Go引擎",
+                "key": "mediaproxyProbe",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "Go引擎状态查看"
+            },
+            {
+                "name": "Go引擎",
+                "key": "mediaproxyDNS",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "Go引擎DNS设置"
+            },
+            {
+                "name": "盘搜",
+                "key": "pansouDomain",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "盘搜域名设置"
+            },
+            {
+                "name": "凯速",
+                "key": "loginOrlogooutKStore",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "登录｜退出"
+            },
+            {
+                "name": "Cookie",
+                "key": "backupCookieToKStore",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "备份到凯速"
+            },
+            {
+                "name": "Cookie",
+                "key": "downloadCookieToLocal",
+                "icon": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+                "des": "从凯速下载到本地"
+            }
+        ]
+    }
+]
