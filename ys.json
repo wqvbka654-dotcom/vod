@@ -49,15 +49,33 @@
     ],
     "sites": [
         {
-            "key": "csp_Douban",
+            "key": "糯米",
             "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1,
-            "timeout": 60,
-            "indexs": 0,
-            "ext": "./json/douban.json"
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Nmys"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "配置",
+            "name": "💟哔哩网盘登陆💟",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./peizhi/peizhi.json"
         },
         {
             "key": "wv_yszb",
@@ -92,27 +110,18 @@
             "api": "./py/本机资源.py"
         },
         {
-            "key": "糯米",
-            "name": "❤️天扬糯米秒播(稳定)",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Nmys"
-            },
-            "timeout": 10
-        },
-        {
             "key": "csp_Guazi",
             "name": "❤️天扬瓜子秒播(稳定)",
             "type": 3,
             "api": "csp_Guazi",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "py瓜子",
+            "name": "❤️瓜子秒播py",
+            "type": 3,
+            "api": "./py/瓜子.py"
         },
         {
             "key": "金牌GET",
@@ -704,84 +713,276 @@
             "ext": "./js/西瓜影视.js"
         },
         {
-            "key": "bili",
-            "name": "🅱️天扬哔哩大合集",
+            "key": "bilibili",
+            "name": "🅱️哔哩超大合集",
             "type": 3,
-            "api": "csp_AweSomeGuard",
+            "api": "csp_Bili",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./peizhi/daheji.json",
+                "cookie": ""
+            }
+        },
+        {
+            "key": "哔哩哔哩演唱会",
+            "name": "🅱️｜哔哩｜音乐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/blych.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩哔哩听书",
+            "name": "🅱️｜哔哩｜听书",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/blts.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩哔哩相声",
+            "name": "🅱️｜哔哩｜相声",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/blxs.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩哔哩小品",
+            "name": "🅱️｜哔哩｜小品",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/blxp.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩哔哩戏曲",
+            "name": "🅱️｜哔哩｜戏曲",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/blxq.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "少儿教育",
+            "name": "🅱️｜少儿｜教育",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/sejy.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小学课堂",
+            "name": "🅱️｜小学｜课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/xxkt.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "初中课堂",
+            "name": "🅱️｜初中｜课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/czkt.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "高中课堂",
+            "name": "🅱️｜高中｜课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "json": "./peizhi/gzkt.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩影视",
+            "name": "🅱️｜哔哩｜影视",
+            "type": 3,
+            "api": "csp_BiliPGC",
             "searchable": 1,
             "quickSearch": 0,
+            "filterable": 0,
             "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.597
             },
             "ext": {
-                "sp": "Bili",
-                "json": "./json/哔哩ok大集合.json"
-            },
-            "timeout": 20
+                "json": "./peizhi/blys.json",
+                "cookie": ""
+            }
         },
         {
-            "key": "biliych",
-            "name": "🅱️哔哩┃歌曲",
+            "key": "PanSouQuark",
+            "name": "🖤夸克盘搜🖤",
             "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
-            },
-            "timeout": 20
+                "sources": [
+                    "夸克"
+                ]
+            }
         },
         {
-            "key": "bilixs",
-            "name": "🅱️哔哩┃相声",
+            "key": "PanSouUc",
+            "name": "🖤优熙盘搜🖤",
             "type": 3,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "changeable": 1,
+            "hide": 1,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
-            },
-            "timeout": 20
+                "sources": [
+                    "UC"
+                ]
+            }
         },
         {
-            "key": "bilixp",
-            "name": "🅱️哔哩┃小品",
+            "key": "PanSouAli",
+            "name": "🖤阿里盘搜🖤",
             "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "hide": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
-                "sp": "Bili",
-                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
-            },
-            "timeout": 20
+                "sources": [
+                    "阿里"
+                ]
+            }
+        },
+        {
+            "key": "TgAliSearch",
+            "name": "🖤夸克TG搜🖤",
+            "type": 3,
+            "api": "csp_TgSearch",
+            "searchable": 1,
+            "changeable": 0,
+            "hide": 1,
+            "filterable": 0,
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "ext": {
+                "site": "https://tgsou.252035.xyz/",
+                "query": "channelUsername=alyp_1,clouddriveresources,dianyingshare,hdhhd21,jdjdn1111,leoziyuan,NewQuark,PanjClub,Quark_Movies,xiangxiunb,yunpanchat,yunpanqk,XiangxiuNB,alyp_4K_Movies,alyp_Animation,alyp_TV,alyp_JLP&pic=true"
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🖤推送中心🖤",
+            "type": 3,
+            "api": "csp_Push",
+            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "hide": 1,
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
         },
         {
             "key": "我很酷",
@@ -1036,7 +1237,7 @@
             "ext": ""
         },
         {
-            "key": "配置",
+            "key": "数据库设置",
             "name": "🗄️数据配制",
             "type": 3,
             "api": "csp_ConfigCenter",
@@ -1048,37 +1249,6 @@
                 "ratio": 1.433
             },
             "ext": "./configcenter.json"
-        },
-        {
-            "key": "配置中心",
-            "name": "❤️夸克哔哩登陆❤️",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            },
-            "ext": {
-                "sp": "Config"
-            }
-        },
-        {
-            "key": "push_agent",
-            "name": "🛴手机┃推送",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Push"
-            },
-            "timeout": 25
         }
     ],
     "doh": [
