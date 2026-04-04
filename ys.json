@@ -134,6 +134,32 @@
             "ext": "./js/金牌影视.js"
         },
         {
+            "key": "极境视频",
+            "name": "❤️河马1",
+            "type": 3,
+            "api": "csp_Hmys",
+            "ext": {
+                "host": "https://dy.stxbed.com",
+                "app_id": "jijing",
+                "deviceid": "cf95610dfb758d63",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
+            }
+        },
+        {
+            "key": "瞬启视频",
+            "name": "❤️河马2",
+            "type": 3,
+            "api": "csp_Hmys",
+            "ext": {
+                "host": "https://dy.oogsy.com/",
+                "app_id": "shunqi",
+                "deviceid": "670cf3a52bc2452f",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
+            }
+        },
+        {
             "key": "三秋影视",
             "name": "❤️天扬三秋影视",
             "type": 3,
