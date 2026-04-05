@@ -1213,6 +1213,21 @@
             }
         },
         {
+            "key": "LEO弹幕",
+            "name": "推送弹幕",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_DanmakuSpider",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "apiUrl": "https://logvarrn.steven037.xyz/steven",
+                "autoPushEnabled": false,
+                "danmakuStyle": "模板二",
+                "lpAlpha": 0.9
+            }
+        },
+        {
             "key": "song_1a48b",
             "name": "🗄️数据库KTV",
             "type": 3,
