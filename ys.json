@@ -477,14 +477,6 @@
             "api": "./py/农民影视.py"
         },
         {
-            "key": "58",
-            "name": "🧡58影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/58影视.json"
-        },
-        {
             "key": "哈密瓜",
             "name": "🧡哈密瓜影院",
             "type": 3,
