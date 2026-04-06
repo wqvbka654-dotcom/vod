@@ -5,13 +5,13 @@
             {
                 "name": "登录哔哩",
                 "key": "setBilibiliCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置cookie"
             },
             {
                 "name": "退出登录",
                 "key": "cleanBilibiliCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "清除cookie"
             }
         ]
@@ -22,31 +22,31 @@
             {
                 "name": "登录",
                 "key": "setQuarkCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置cookie"
             },
             {
                 "name": "退出登录",
                 "key": "cleanQuarkCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "清除cookie"
             },
             {
                 "name": "多线程",
                 "key": "setQuarkMultiThread",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": ""
             },
             {
                 "name": "手动清理",
                 "key": "cleanQuarkTempDir",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "手动清理tv_temp_saved目录全部文件"
             },
             {
                 "name": "自动清理",
                 "key": "quarkVideoCacheTime",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置自动清理tv_temp_saved目录文件缓存时间"
             }
         ]
@@ -57,43 +57,43 @@
             {
                 "name": "PC版登录",
                 "key": "setUcCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "超级会员只需要登录PC版"
             },
             {
                 "name": "TV版登录",
                 "key": "setUcTvCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "普通用户需要同时登录PC版和TV版"
             },
             {
                 "name": "PC版退出",
                 "key": "cleanUcCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "清除Cookie"
             },
             {
                 "name": "TV版退出",
                 "key": "cleanUcTvCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "清除Cookie"
             },
             {
                 "name": "多线程",
                 "key": "setUcMultiThread",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": ""
             },
             {
                 "name": "手动清理",
                 "key": "cleanUcTempDir",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "手动清理tv_temp_saved目录全部文件"
             },
             {
                 "name": "自动清理",
                 "key": "ucVideoCacheTime",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置自动清理tv_temp_saved目录文件缓存时间"
             }
         ]
@@ -104,31 +104,31 @@
             {
                 "name": "退出登录",
                 "key": "cleanAliCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "清除Cookie"
             },
             {
                 "name": "登录",
                 "key": "setAliCookie",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置Cookie"
             },
             {
                 "name": "多线程",
                 "key": "setAliMultiThread",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": ""
             },
             {
                 "name": "手动清理",
                 "key": "cleanAliTempDir",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "手动清理tv_temp_saved目录全部文件"
             },
             {
                 "name": "自动清理",
                 "key": "aliVideoCacheTime",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "设置自动清理tv_temp_saved目录文件缓存时间"
             }
         ]
@@ -139,43 +139,43 @@
             {
                 "name": "ABI",
                 "key": "abiSelection",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "手动选择ABI"
             },
             {
                 "name": "Go引擎",
                 "key": "mediaproxyProbe",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "Go引擎状态查看"
             },
             {
                 "name": "Go引擎",
                 "key": "mediaproxyDNS",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "Go引擎DNS设置"
             },
             {
                 "name": "盘搜",
                 "key": "pansouDomain",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "盘搜域名设置"
             },
             {
                 "name": "凯速",
                 "key": "loginOrlogooutKStore",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "登录｜退出"
             },
             {
                 "name": "Cookie",
                 "key": "backupCookieToKStore",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "备份到凯速"
             },
             {
                 "name": "Cookie",
                 "key": "downloadCookieToLocal",
-                "icon": "./logo.png",
+                "icon": "https://img.baidu.re/i/2026/04/124ku7w.png",
                 "des": "从凯速下载到本地"
             }
         ]
