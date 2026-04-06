@@ -1208,7 +1208,7 @@
             "name": "弹幕",
             "key": "GoConfig",
             "type": 3,
-            "hide": 1,
+            "hide": 0,
             "api": "csp_GoConfigAmns",
             "jar": "./jar/1.png;md5;faa0df35f2382724b051830878e0f6c9",
             "indexs": 1,
