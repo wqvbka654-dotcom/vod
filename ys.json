@@ -1,7 +1,7 @@
 {
-    "spider": "https://gitee.com/cfty654/vod/raw/main/jar/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
+    "spider": "./jar/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
     "notice": "❤️天扬影视❤️",
-    "logo": "https://gitee.com/cfty654/vod/raw/main/logo.png",
+    "logo": "./logo.png",
     "lives": [
         {
             "name": "TV直播",
@@ -70,7 +70,7 @@
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -172,7 +172,7 @@
             "key": "三秋影视",
             "name": "❤️天扬三秋影视",
             "type": 3,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/3q.jar;md5;d819b1d03d82966823a55522bf32b32a",
+            "jar": "./jar/3q.jar;md5;d819b1d03d82966823a55522bf32b32a",
             "api": "csp_App3Q"
         },
         {
@@ -497,7 +497,7 @@
             "name": "🧡拖布影视",
             "type": 3,
             "api": "csp_XYQHiker",
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/Lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
+            "jar": "./jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
         },
         {
@@ -711,7 +711,7 @@
             "api": "csp_Bili",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -729,7 +729,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/blych.json",
                 "cookie": ""
@@ -747,7 +747,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/blts.json",
                 "cookie": ""
@@ -765,7 +765,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/blxs.json",
                 "cookie": ""
@@ -783,7 +783,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/blxp.json",
                 "cookie": ""
@@ -801,7 +801,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/blxq.json",
                 "cookie": ""
@@ -819,7 +819,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/sejy.json",
                 "cookie": ""
@@ -837,7 +837,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/xxkt.json",
                 "cookie": ""
@@ -855,7 +855,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/czkt.json",
                 "cookie": ""
@@ -873,7 +873,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "json": "./peizhi/gzkt.json",
                 "cookie": ""
@@ -892,7 +892,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -911,7 +911,7 @@
             "hide": 1,
             "filterable": 0,
             "changeable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "sources": [
                     "夸克"
@@ -927,7 +927,7 @@
             "changeable": 1,
             "hide": 1,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "sources": [
                     "UC"
@@ -943,7 +943,7 @@
             "hide": 1,
             "changeable": 1,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "sources": [
                     "阿里"
@@ -959,7 +959,7 @@
             "changeable": 0,
             "hide": 1,
             "filterable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": {
                 "site": "https://tgsou.252035.xyz/",
                 "query": "channelUsername=alyp_1,clouddriveresources,dianyingshare,hdhhd21,jdjdn1111,leoziyuan,NewQuark,PanjClub,Quark_Movies,xiangxiunb,yunpanchat,yunpanqk,XiangxiuNB,alyp_4K_Movies,alyp_Animation,alyp_TV,alyp_JLP&pic=true"
@@ -970,7 +970,7 @@
             "name": "🖤推送中心🖤",
             "type": 3,
             "api": "csp_Push",
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "hide": 1,
             "searchable": 0,
             "changeable": 0,
@@ -984,7 +984,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "AiMusic"
             },
@@ -998,7 +998,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "ShiJiMusic"
             },
@@ -1081,7 +1081,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -1129,7 +1129,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "BookTing"
             },
@@ -1167,7 +1167,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "list"
             },
@@ -1184,7 +1184,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "style": {
                 "type": "list"
             },
@@ -1205,19 +1205,18 @@
             }
         },
         {
-            "key": "LEO弹幕",
-            "name": "推送弹幕",
+            "name": "弹幕",
+            "key": "GoConfig",
             "type": 3,
             "hide": 1,
-            "api": "csp_DanmakuSpider",
+            "api": "csp_GoConfigAmns",
+            "jar": "./jar/1.png;md5;faa0df35f2382724b051830878e0f6c9",
+            "indexs": 1,
             "searchable": 1,
+            "filterable": 0,
+            "quickSearch": 1,
             "changeable": 0,
-            "ext": {
-                "apiUrl": "https://logvarrn.steven037.xyz/steven",
-                "autoPushEnabled": false,
-                "danmakuStyle": "模板二",
-                "lpAlpha": 0.9
-            }
+            "ext": ""
         },
         {
             "key": "song_1a48b",
@@ -1228,7 +1227,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": ""
         },
         {
@@ -1240,7 +1239,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "ext": ""
         },
         {
@@ -1250,7 +1249,7 @@
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
-            "jar": "https://gitee.com/cfty654/vod/raw/main/jar/dongli.jar;md5;472dcc1280ed652c7638572840772bb2",
+            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
             "style": {
                 "type": "list",
                 "ratio": 1.433
