@@ -169,6 +169,51 @@
             }
         },
         {
+            "key": "厂长",
+            "name": "❤️厂长直连",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Czzy"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "文才",
+            "name": "❤️文才在线",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "Jpys"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "奇奇",
+            "name": "❤️奇奇App",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "QiQi"
+            },
+            "timeout": 10
+        },
+        {
             "key": "三秋影视",
             "name": "❤️天扬三秋影视",
             "type": 3,
@@ -211,14 +256,6 @@
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
             "ext": "./json/喵TV.json"
-        },
-        {
-            "key": "云影",
-            "name": "❤️云影视频",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/云影.json"
         },
         {
             "key": "秒播影院",
@@ -294,7 +331,7 @@
             "ext": "./js/泥泥视频.js"
         },
         {
-            "key": "人人视频6",
+            "key": "人视频6",
             "name": "❤️天扬人人视频",
             "type": 3,
             "api": "./py/人人视频.py",
@@ -306,9 +343,9 @@
         },
         {
             "key": "人人PHP",
-            "name": "❤️天扬人人┃PHP",
+            "name": "❤️天扬人人PHP",
             "type": 4,
-            "api": "http://jiduo666.dpdns.org/rrsp.php",
+            "api": "http://jiduo.3116598.xyz/PHP/rrsp.php",
             "changeable": 1
         },
         {
@@ -477,14 +514,6 @@
             "api": "./py/农民影视.py"
         },
         {
-            "key": "哈密瓜",
-            "name": "🧡哈密瓜影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/哈密瓜影院.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
             "key": "vs",
             "name": "🧡VS影视",
             "type": 3,
@@ -499,23 +528,6 @@
             "api": "csp_XYQHiker",
             "jar": "./jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
             "ext": "./json/拖布影视.json"
-        },
-        {
-            "key": "4KVM1",
-            "name": "🧡4KVM",
-            "type": 3,
-            "api": "./py/4KVM.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "py_飞快TV",
-            "name": "🧡飞快TV",
-            "type": 3,
-            "api": "./py/飞快TV.py"
         },
         {
             "key": "海龟JS",
@@ -640,14 +652,6 @@
             }
         },
         {
-            "key": "加密狗",
-            "name": "🩵麻花影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/麻花影视.json"
-        },
-        {
             "key": "全能",
             "name": "🩵全能影视",
             "type": 3,
@@ -656,27 +660,10 @@
             "ext": "./json/全能影视.json"
         },
         {
-            "key": "cat_kan影视",
-            "name": "🩵看影视",
-            "type": 3,
-            "api": "./js/cat_kan影视.js"
-        },
-        {
             "key": "大猫",
             "name": "🩵大猫影院",
             "type": 3,
             "api": "./js/cat_大猫影院.js"
-        },
-        {
-            "key": "首播",
-            "name": "🩵首播影院",
-            "type": 3,
-            "api": "./js/cat_首播影院.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
         },
         {
             "key": "爱看机器人",
@@ -1137,17 +1124,34 @@
             "timeout": 10
         },
         {
-            "key": "全能短剧",
-            "name": "🤎短剧AI¹",
+            "key": "星芽短剧",
+            "name": "💖星芽短剧",
             "type": 3,
-            "api": "csp_DuanJuCen",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
-                "classes": "./json/duanjucen.json"
+                "sp": "AppXY"
             },
-            "类型": "短剧"
+            "timeout": 10
+        },
+        {
+            "key": "盒马短剧",
+            "name": "💖盒马短剧",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "ext": {
+                "sp": "HeMa"
+            },
+            "timeout": 10
         },
         {
             "key": "csp_Jzb",
