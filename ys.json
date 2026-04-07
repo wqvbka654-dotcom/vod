@@ -240,7 +240,7 @@
             "key": "1905",
             "name": "❤️老片1905影视",
             "type": 3,
-            "jar": "./jar/3q.jar",
+            "jar": "./jar/3q.jar;md5;d819b1d03d82966823a55522bf32b32a",
             "api": "csp_Web1905",
             "searchable": 1,
             "quickSearch": 1,
