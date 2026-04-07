@@ -70,7 +70,7 @@
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -698,20 +698,13 @@
             "ext": "./js/缘觉影视.js"
         },
         {
-            "key": "drpy2_西瓜影视",
-            "name": "📺西瓜影视js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/西瓜影视.js"
-        },
-        {
             "key": "bilibili",
             "name": "🅱️哔哩超大合集",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -729,7 +722,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/blych.json",
                 "cookie": ""
@@ -747,7 +740,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/blts.json",
                 "cookie": ""
@@ -765,7 +758,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/blxs.json",
                 "cookie": ""
@@ -783,7 +776,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/blxp.json",
                 "cookie": ""
@@ -801,7 +794,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/blxq.json",
                 "cookie": ""
@@ -819,7 +812,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/sejy.json",
                 "cookie": ""
@@ -837,7 +830,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/xxkt.json",
                 "cookie": ""
@@ -855,7 +848,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/czkt.json",
                 "cookie": ""
@@ -873,7 +866,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "json": "./peizhi/gzkt.json",
                 "cookie": ""
@@ -892,7 +885,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -911,7 +904,7 @@
             "hide": 1,
             "filterable": 0,
             "changeable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "sources": [
                     "夸克"
@@ -927,7 +920,7 @@
             "changeable": 1,
             "hide": 1,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "sources": [
                     "UC"
@@ -943,7 +936,7 @@
             "hide": 1,
             "changeable": 1,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "sources": [
                     "阿里"
@@ -959,7 +952,7 @@
             "changeable": 0,
             "hide": 1,
             "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": {
                 "site": "https://tgsou.252035.xyz/",
                 "query": "channelUsername=alyp_1,clouddriveresources,dianyingshare,hdhhd21,jdjdn1111,leoziyuan,NewQuark,PanjClub,Quark_Movies,xiangxiunb,yunpanchat,yunpanqk,XiangxiuNB,alyp_4K_Movies,alyp_Animation,alyp_TV,alyp_JLP&pic=true"
@@ -970,7 +963,7 @@
             "name": "🖤推送中心🖤",
             "type": 3,
             "api": "csp_Push",
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "hide": 1,
             "searchable": 0,
             "changeable": 0,
@@ -1227,7 +1220,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": ""
         },
         {
@@ -1239,7 +1232,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "ext": ""
         },
         {
@@ -1249,7 +1242,7 @@
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;3d6d7a4a31addbdc94cb62fc9cdd3269",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "style": {
                 "type": "list",
                 "ratio": 1.433
