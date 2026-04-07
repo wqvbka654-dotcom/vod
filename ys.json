@@ -1029,8 +1029,16 @@
             "api": "./py/爱听音乐.py"
         },
         {
-            "key": "drpy2_戏曲大全",
+            "key": "csp_xq",
             "name": "💗🎧戏曲大全",
+            "type": 3,
+            "api": "csp_Lyxq",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "drpy2_戏曲大全",
+            "name": "💗🎧戏曲大全2",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/戏曲大全.js"
