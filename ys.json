@@ -1149,6 +1149,13 @@
             "timeout": 10
         },
         {
+            "key": "qm",
+            "name": "💖七猫短剧",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./七猫.js"
+        },
+        {
             "key": "盒马短剧",
             "name": "💖盒马短剧",
             "type": 3,
