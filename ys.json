@@ -1149,10 +1149,10 @@
             "timeout": 10
         },
         {
-            "key": "qm",
+            "key": "qmdj",
             "name": "💖七猫短剧",
             "type": 3,
-            "api": "./js/drpy2.min.js",
+            "api": "./js/drpy8.min.js",
             "ext": "./js/七猫.js"
         },
         {
