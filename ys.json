@@ -312,7 +312,7 @@
         },
         {
             "key": "旺旺",
-            "name": "❤️天扬旺旺视频",
+            "name": "❤️天扬旺旺秒播",
             "type": 3,
             "api": "./js/旺旺影视.js",
             "style": {
@@ -323,11 +323,11 @@
         },
         {
             "key": "旺旺影视",
-            "name": "❤️旺旺XBPQ",
+            "name": "❤️旺旺秒播XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://rihou.cc:88/xb/旺旺影视.json",
-            "jar": "http://rihou.cc:88/jar/xbpq.jar"
+            "ext": "./json/旺旺影视.json",
+            "jar": "./jar/xbpq.jar"
         },
         {
             "key": "cat_3Q",
@@ -969,9 +969,16 @@
             "ext": "./js/戏曲大全.js"
         },
         {
+            "key": "py直播合集",
+            "name": "💞直播合集",
+            "type": 3,
+            "api": "./py/直播合集.py"
+        },
+        {
             "key": "虎牙直播",
             "name": "🐯虎牙直播",
             "type": 3,
+            "hide": 0,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
@@ -991,6 +998,7 @@
             "key": "drpy2_虎牙直播",
             "name": "🐯虎牙直播2",
             "type": 3,
+            "hide": 0,
             "api": "./js/drpy2.min.js",
             "playerType": 2,
             "searchable": 0,
@@ -1021,6 +1029,7 @@
             "key": "py_哔哩直播",
             "name": "🅱️哔哩直播",
             "type": 3,
+            "hide": 0,
             "api": "./py/哔哩直播.py"
         },
         {
@@ -1296,6 +1305,15 @@
             "searchable": 0,
             "changeable": 0,
             "timeout": 60
+        },
+        {
+            "key": "商店",
+            "name": "💞天扬应用商店💞",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./json/market.json"
         }
     ],
     "doh": [
