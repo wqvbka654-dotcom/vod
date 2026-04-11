@@ -129,6 +129,7 @@
             "key": "金牌GET",
             "name": "❤️金牌APP秒播",
             "type": 3,
+            "hide": 1,
             "api": "csp_AppGet",
             "ext": {
                 "host": "https://qj4.catbb.xyz",
