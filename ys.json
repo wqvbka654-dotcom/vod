@@ -126,19 +126,6 @@
             "api": "./py/瓜子.py"
         },
         {
-            "key": "金牌GET",
-            "name": "❤️金牌APP秒播",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://qj4.catbb.xyz",
-                "datakey": "eecbio48dsq13kkk",
-                "init": "V122",
-                "api": 2
-            }
-        },
-        {
             "key": "drpy2_金牌影院",
             "name": "❤️天扬金牌秒播js(稳定)",
             "type": 3,
