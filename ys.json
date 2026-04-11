@@ -127,11 +127,11 @@
         },
         {
             "key": "金牌GET",
-            "name": "❤️金牌秒播APP(稳定)",
+            "name": "❤️金牌APP秒播",
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://qj3.ggtvb.cc",
+                "host": "https://qj4.catbb.xyz",
                 "datakey": "eecbio48dsq13kkk",
                 "init": "V122",
                 "api": 2
@@ -172,7 +172,7 @@
         },
         {
             "key": "厂长",
-            "name": "❤️厂长直连",
+            "name": "❤️厂长直连(稳定)",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -197,21 +197,6 @@
             "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "Jpys"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "奇奇",
-            "name": "❤️奇奇App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "QiQi"
             },
             "timeout": 10
         },
