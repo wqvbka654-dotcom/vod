@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
+    "spider": "./jar/vox.jar;md5;4d44b62ac25442e0f2c1c08d0f54150b",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -263,7 +263,7 @@
         },
         {
             "key": "小羊4K",
-            "name": "❤️小羊4K",
+            "name": "小羊4K",
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
@@ -1042,6 +1042,20 @@
                 "sp": "BookTing"
             },
             "timeout": 10
+        },
+        {
+            "key": "全能短剧",
+            "name": "💖短剧AI",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "api": "https://api-v2.cenguigui.cn/api",
+                "classes": "./json/duanjucen.json"
+            },
+            "类型": "短剧"
         },
         {
             "key": "星芽短剧",
