@@ -5,12 +5,12 @@
             "name": "❤️天扬在线❤️"
         },
         {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/ys2.json",
-            "name": "❤️天扬全局弹幕❤️"
-        },
-        {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/cfty/refs/heads/main/pan.json",
             "name": "❤️天扬网盘专线❤️"
+        },
+        {
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/ys2.json",
+            "name": "❤️天扬全局弹幕❤️"
         },
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan/pan.json",
@@ -23,6 +23,10 @@
         {
             "url": "http://rihou.cc:88/demo.php",
             "name": "集多在线"
+        },
+        {
+            "url": "https://9877.kstore.space/AnotherD/api.json",
+            "name": "潇洒在线"
         },
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/dj/refs/heads/main/dj.json",
