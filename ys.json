@@ -97,15 +97,6 @@
             "switchable": 1
         },
         {
-            "key": "咪咕PHP",
-            "name": "🎦央视直播（720P）",
-            "type": 4,
-            "api": "http://rihou.cc:88/zb/直播转点播.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
             "key": "py央视全套",
             "name": "🎦央视老节目",
             "type": 3,
@@ -120,10 +111,36 @@
             "changeable": 1
         },
         {
+            "key": "csp_Gz360",
+            "name": "❤️天扬瓜子3K",
+            "type": 3,
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "https://pub-2ba1aa9b484b49b8a52fd6cc5edc803b.r2.dev/feimao.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
+        },
+        {
             "key": "py瓜子",
             "name": "❤️瓜子秒播py",
             "type": 3,
             "api": "./py/瓜子.py"
+        },
+        {
+            "key": "牌",
+            "name": "❤️天扬金牌APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "jar": "./jar/xs.jar;md5;63b3d45ac1fa64976dd6237bf2abe912",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://qj4.catbb.xyz",
+                "dataKey": "eecbio48dsq13kkk",
+                "dataIv": "eecbio48dsq13kkk",
+                "search": "searchList4",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
         },
         {
             "key": "drpy2_金牌影院",
