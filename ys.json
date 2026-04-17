@@ -841,6 +841,39 @@
             }
         },
         {
+            "key": "csp_XYQHiker_兔小贝",
+            "name": "👨‍👩‍👧‍👦兔小贝(儿童)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/tuxiaobei.json",
+            "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
+        },
+        {
+            "key": "csp_XYQHiker_小2",
+            "name": "👨‍👩‍👧‍👦兔小贝2(儿童)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/tuxiaobei2.json",
+            "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
+        },
+        {
+            "key": "csp_XYQHiker_童趣",
+            "name": "👨‍👩‍👧‍👦童趣(儿童)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/tongqu.json",
+            "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
+        },
+        {
             "key": "我很酷",
             "name": "❤️🎧天扬酷音乐",
             "type": 3,
