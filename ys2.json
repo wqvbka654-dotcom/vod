@@ -1,50 +1,28 @@
 {
-    "spider": "./jar/vox.jar;md5;ccbbaf9a8eb24e3c710884cb82b668f2",
+    "spider": "./jar/vox.jar;md5;4d44b62ac25442e0f2c1c08d0f54150b",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
-        {
-            "name": "TV直播",
-            "type": 0,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
-        },
-        {
-            "name": "日后TV直播",
-            "type": 0,
-            "url": "http://rihou.cc:555/gggg.nzk",
-            "playerType": 2,
-            "ua": "okhttp/3",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-            "logo": "https://epg.112114.eu.org/logo/{name}.png"
-        },
-        {
-            "name": "潇雨萌萌TV直播",
-            "type": 0,
-            "url": "https://ds65.tv1288.xyz",
-            "playerType": 1
-        },
         {
             "name": "风云TV直播",
             "type": 1,
             "url": "http://iptv.4666888.xyz/FYTV.txt"
         },
         {
-            "name": "宫殿TV直播",
+            "name": "TV直播",
             "type": 0,
-            "url": "https://gongdian.top/tv/iptv",
-            "playerType": 1,
-            "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+        },
+        {
+            "name": "📡咪咕直播",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "ua": "okHttp/Mod-1.1.0"
         },
         {
             "name": "易发TV直播",
             "type": 1,
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
-        },
-        {
-            "name": "live",
-            "type": 0,
-            "url": "https://igdux.top/ByHt",
-            "ua": ""
         }
     ],
     "sites": [
@@ -62,6 +40,20 @@
                 "sp": "Nmys"
             },
             "timeout": 10
+        },
+        {
+            "name": "💓弹幕设置💓",
+            "key": "GoConfig",
+            "type": 3,
+            "hide": 0,
+            "api": "csp_GoConfigAmns",
+            "jar": "./jar/bfdb--cvdvds.png;md5;7370a5264d625d5eedc0f99ba3c8a18d",
+            "indexs": 1,
+            "searchable": 1,
+            "filterable": 0,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": ""
         },
         {
             "key": "csp_Config",
@@ -86,20 +78,6 @@
             "ext": "./peizhi/peizhi.json"
         },
         {
-            "name": "💓弹幕设置💓",
-            "key": "GoConfig",
-            "type": 3,
-            "hide": 0,
-            "api": "csp_GoConfigAmns",
-            "jar": "./jar/1.png;md5;faa0df35f2382724b051830878e0f6c9",
-            "indexs": 1,
-            "searchable": 1,
-            "filterable": 0,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": ""
-        },
-        {
             "key": "wv_yszb",
             "name": "🎦央视直播(1080P)",
             "api": "csp_WvSpider",
@@ -111,25 +89,10 @@
             "switchable": 1
         },
         {
-            "key": "咪咕PHP",
-            "name": "🎦央视直播（720P）",
-            "type": 4,
-            "api": "http://rihou.cc:88/zb/直播转点播.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
             "key": "py央视全套",
             "name": "🎦央视老节目",
             "type": 3,
             "api": "./py/央视大全套.py"
-        },
-        {
-            "key": "py_本机资源",
-            "name": "▶️本机资源",
-            "type": 3,
-            "api": "./py/本机资源.py"
         },
         {
             "key": "csp_Guazi",
@@ -140,21 +103,35 @@
             "changeable": 1
         },
         {
+            "key": "csp_Gz360",
+            "name": "❤️天扬瓜子3K",
+            "type": 3,
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "https://pub-2ba1aa9b484b49b8a52fd6cc5edc803b.r2.dev/feimao.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
+        },
+        {
             "key": "py瓜子",
             "name": "❤️瓜子秒播py",
             "type": 3,
             "api": "./py/瓜子.py"
         },
         {
-            "key": "金牌GET",
-            "name": "❤️金牌秒播APP(稳定)",
+            "key": "牌",
+            "name": "❤️天扬金牌APP",
             "type": 3,
-            "api": "csp_AppGet",
+            "api": "csp_AppQi",
+            "jar": "./jar/xs.jar;md5;63b3d45ac1fa64976dd6237bf2abe912",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
-                "host": "https://qj3.ggtvb.cc",
-                "datakey": "eecbio48dsq13kkk",
-                "init": "V122",
-                "api": 2
+                "url": "https://qj4.catbb.xyz",
+                "dataKey": "eecbio48dsq13kkk",
+                "dataIv": "eecbio48dsq13kkk",
+                "search": "searchList4",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -192,7 +169,7 @@
         },
         {
             "key": "厂长",
-            "name": "❤️厂长直连",
+            "name": "❤️厂长直连(稳定)",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
@@ -217,21 +194,6 @@
             "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "ext": {
                 "sp": "Jpys"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "奇奇",
-            "name": "❤️奇奇App",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "QiQi"
             },
             "timeout": 10
         },
@@ -298,28 +260,6 @@
             "ext": "./json/秒播影院.json"
         },
         {
-            "key": "影666",
-            "name": "❤️天扬4k",
-            "type": 3,
-            "api": "./py/yt.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "小羊4K",
-            "name": "❤️小羊4K",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://qjappcms410.xy4k.com",
-                "datakey": "mC6kG4mI1uM8tS4o",
-                "api": 2
-            }
-        },
-        {
             "key": "华",
             "name": "❤️花树TV",
             "type": 3,
@@ -332,7 +272,7 @@
         },
         {
             "key": "旺旺",
-            "name": "❤️天扬旺旺视频",
+            "name": "❤️天扬旺旺秒播",
             "type": 3,
             "api": "./js/旺旺影视.js",
             "style": {
@@ -343,11 +283,11 @@
         },
         {
             "key": "旺旺影视",
-            "name": "❤️旺旺XBPQ",
+            "name": "❤️旺旺秒播XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://rihou.cc:88/xb/旺旺影视.json",
-            "jar": "http://rihou.cc:88/jar/xbpq.jar"
+            "ext": "./json/旺旺影视.json",
+            "jar": "./jar/xbpq.jar"
         },
         {
             "key": "cat_3Q",
@@ -989,9 +929,16 @@
             "ext": "./js/戏曲大全.js"
         },
         {
+            "key": "py直播合集",
+            "name": "💞直播合集",
+            "type": 3,
+            "api": "./py/直播合集.py"
+        },
+        {
             "key": "虎牙直播",
             "name": "🐯虎牙直播",
             "type": 3,
+            "hide": 0,
             "api": "csp_AweSomeGuard",
             "searchable": 0,
             "quickSearch": 0,
@@ -1011,6 +958,7 @@
             "key": "drpy2_虎牙直播",
             "name": "🐯虎牙直播2",
             "type": 3,
+            "hide": 0,
             "api": "./js/drpy2.min.js",
             "playerType": 2,
             "searchable": 0,
@@ -1041,6 +989,7 @@
             "key": "py_哔哩直播",
             "name": "🅱️哔哩直播",
             "type": 3,
+            "hide": 0,
             "api": "./py/哔哩直播.py"
         },
         {
@@ -1080,6 +1029,28 @@
                 "sp": "BookTing"
             },
             "timeout": 10
+        },
+        {
+            "key": "djdq",
+            "name": "💖短剧大全",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/lgexin.jar",
+            "ext": "./json/短剧大全.json"
+        },
+        {
+            "key": "全能短剧",
+            "name": "💖短剧AI",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "api": "https://api-v2.cenguigui.cn/api",
+                "classes": "./json/duanjucen.json"
+            },
+            "类型": "短剧"
         },
         {
             "key": "星芽短剧",
@@ -1226,6 +1197,21 @@
             }
         },
         {
+            "key": "csp_PingLian",
+            "name": "🖤盘链4K🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_PingLian",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/pinglian.json",
+                "sites": "https://pinglian.lol"
+            }
+        },
+        {
             "key": "csp_PanSou",
             "name": "🖤盘搜🖤",
             "type": 3,
@@ -1316,6 +1302,16 @@
             "searchable": 0,
             "changeable": 0,
             "timeout": 60
+        },
+        {
+            "key": "商店",
+            "name": "💞天扬应用商店💞",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./json/market.json"
         }
     ],
     "doh": [
