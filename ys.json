@@ -1017,6 +1017,14 @@
             "timeout": 10
         },
         {
+            "key": "djdq",
+            "name": "💖短剧大全",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/lgexin.jar",
+            "ext": "./json/短剧大全.json"
+        },
+        {
             "key": "全能短剧",
             "name": "💖短剧AI",
             "type": 3,
