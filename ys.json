@@ -1300,20 +1300,11 @@
             "key": "push_agent",
             "name": "🖤链接┃推送🖤",
             "type": 3,
+            "hide": 1,
             "api": "csp_Push",
             "searchable": 0,
             "changeable": 0,
             "timeout": 60
-        },
-        {
-            "key": "商店",
-            "name": "💞天扬应用商店💞",
-            "type": 3,
-            "hide": 0,
-            "api": "csp_Market",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "./json/market.json"
         }
     ],
     "doh": [
