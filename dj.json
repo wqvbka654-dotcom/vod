@@ -1,0 +1,47 @@
+{
+    "spider": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+    "notice": "🧡天扬短剧🧡",
+    "logo": "./logo.png",
+    "sites": [
+        {
+            "key": "qm",
+            "name": "🧡七猫短剧🧡",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./七猫.js"
+        },
+        {
+            "key": "xf短剧",
+            "name": "🧡天扬短剧🧡",
+            "type": 3,
+            "api": "./天扬短剧.py"
+        },
+        {
+            "key": "xy",
+            "name": "🧡星芽短剧🧡",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./星芽.js"
+        },
+        {
+            "key": "盒马短剧",
+            "name": "🧡盒马短剧🧡",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "sp": "HeMa"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "hm",
+            "name": "🧡河马短剧🧡",
+            "type": 3,
+            "api": "./河马.py"
+        }
+    ]
+}
