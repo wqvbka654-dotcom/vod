@@ -90,6 +90,17 @@
             "api": "./py/央视大全套.py"
         },
         {
+            "key": "恐怖",
+            "name": "💔天扬恐怖系列",
+            "api": "csp_FileSpider",
+            "type": "3",
+            "jar": "./jar/tu.jar",
+            "ext": "./json/恐怖电影.txt",
+            "searchable": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
             "key": "csp_Guazi",
             "name": "❤️天扬瓜子秒播(稳定)",
             "type": 3,
