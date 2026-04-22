@@ -92,6 +92,21 @@
             "switchable": 1
         },
         {
+            "key": "热播影",
+            "name": "❤️热播影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "site": [
+                    "http://v.rbotv.cn"
+                ]
+            }
+        },
+        {
             "key": "csp_Guazi",
             "name": "❤️瓜子影视秒播",
             "type": 3,
@@ -699,14 +714,8 @@
             "ext": "./js/戏曲大全.js"
         },
         {
-            "key": "py直播合集",
-            "name": "💞直播合集",
-            "type": 3,
-            "api": "./py/直播合集.py"
-        },
-        {
             "key": "drpy2_虎牙直播",
-            "name": "🐯虎牙直播2",
+            "name": "虎牙直播",
             "type": 3,
             "hide": 0,
             "api": "./js/drpy2.min.js",
@@ -715,6 +724,36 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./js/虎牙直播.js"
+        },
+        {
+            "key": "Douyu",
+            "name": "斗鱼直播",
+            "type": 3,
+            "api": "csp_Douyu",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "KuaiShou",
+            "name": "快手直播",
+            "type": 3,
+            "api": "csp_KuaiShou",
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
         },
         {
             "key": "py_哔哩直播",
@@ -748,12 +787,40 @@
             "ext": ""
         },
         {
-            "key": "djdq",
-            "name": "💖短剧大全",
+            "key": "juheduanju",
+            "name": "💖聚合短剧",
             "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/lgexin.jar",
-            "ext": "./json/短剧大全.json"
+            "api": "csp_JuheShortDrama",
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "HeMa",
+            "name": "💖盒马短剧",
+            "type": 3,
+            "api": "csp_HeMa",
+            "searchable": 0,
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "JuWang",
+            "name": "💖剧王短剧",
+            "type": 3,
+            "api": "csp_JuWang",
+            "searchable": 0,
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "七星",
+            "name": "💖七星短剧",
+            "type": 3,
+            "api": "https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "全能短剧",
@@ -786,17 +853,6 @@
             "type": 3,
             "api": "./js/drpy8.min.js",
             "ext": "./js/七猫.js"
-        },
-        {
-            "key": "csp_Jzb",
-            "name": "⚽看球体育",
-            "type": 3,
-            "api": "csp_Jzb",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": {
-                "sites": ""
-            }
         },
         {
             "key": "csp_ShuaiJiao",
