@@ -668,6 +668,26 @@
             "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
         },
         {
+            "key": "AiWan",
+            "name": "❤️🎧爱玩音乐",
+            "type": 3,
+            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
+            "api": "csp_AiWan",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 1
+        },
+        {
+            "key": "爱听音乐",
+            "name": "❤️🎧爱听音乐",
+            "type": 3,
+            "api": "https://mpimg.cn/down.php/b3284feb00815ddd5d7e71e1468d9cf1.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "py_酷音乐",
             "name": "❤️🎧酷音乐",
             "type": 3,
