@@ -119,6 +119,7 @@
             "key": "极境视频",
             "name": "❤️河马1",
             "type": 3,
+            "hide": 1,
             "api": "csp_Hmys",
             "ext": {
                 "host": "https://dy.stxbed.com",
@@ -132,6 +133,7 @@
             "key": "瞬启视频",
             "name": "❤️河马2",
             "type": 3,
+            "hide": 1,
             "api": "csp_Hmys",
             "ext": {
                 "host": "https://dy.oogsy.com/",
@@ -809,34 +811,6 @@
             "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
         },
         {
-            "key": "我很酷",
-            "name": "❤️🎧天扬酷音乐",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "AiMusic"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "易听音乐",
-            "name": "❤️🎧天扬易听音乐",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "ShiJiMusic"
-            },
-            "timeout": 10
-        },
-        {
             "key": "py_酷音乐",
             "name": "❤️🎧酷音乐",
             "type": 3,
@@ -901,25 +875,6 @@
             "ext": "./js/虎牙直播.js"
         },
         {
-            "key": "快手直播",
-            "name": "✌️️快手直播",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "sp": "KsLive"
-            },
-            "timeout": 10
-        },
-        {
             "key": "py_哔哩直播",
             "name": "🅱️哔哩直播",
             "type": 3,
@@ -949,20 +904,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": ""
-        },
-        {
-            "key": "世界听书",
-            "name": "💙【广播】世界听书",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "BookTing"
-            },
-            "timeout": 10
         },
         {
             "key": "djdq",
@@ -1014,40 +955,6 @@
             "ext": {
                 "sites": ""
             }
-        },
-        {
-            "key": "瓜子看球",
-            "name": "⚽瓜子看球",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "list"
-            },
-            "ext": {
-                "sp": "GzSport"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "88看球",
-            "name": "⚽88看球",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "jar": "./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "style": {
-                "type": "list"
-            },
-            "ext": {
-                "sp": "Kanqiu"
-            },
-            "timeout": 10
         },
         {
             "key": "csp_ShuaiJiao",
