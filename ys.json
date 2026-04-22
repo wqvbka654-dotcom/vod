@@ -27,12 +27,10 @@
     ],
     "sites": [
         {
-            "key": "csp_Guazi",
+            "key": "py_农民",
             "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "csp_Guazi",
-            "searchable": 1,
-            "changeable": 1
+            "api": "./py/农民影视.py"
         },
         {
             "key": "csp_Config",
@@ -94,6 +92,14 @@
             "switchable": 1
         },
         {
+            "key": "csp_Guazi",
+            "name": "❤️瓜子影视秒播❤️",
+            "type": 3,
+            "api": "csp_Guazi",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_Gz360",
             "name": "❤️天扬瓜子3K",
             "type": 3,
@@ -107,6 +113,25 @@
             "name": "❤️瓜子秒播py",
             "type": 3,
             "api": "./py/瓜子.py"
+        },
+        {
+            "key": "旺旺",
+            "name": "❤️天扬旺旺秒播",
+            "type": 3,
+            "api": "./js/旺旺影视.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "旺旺影视",
+            "name": "❤️旺旺秒播XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/旺旺影视.json",
+            "jar": "./jar/xbpq.jar"
         },
         {
             "key": "drpy2_金牌影院",
@@ -192,25 +217,6 @@
                 "ratio": 1.33
             },
             "changeable": 1
-        },
-        {
-            "key": "旺旺",
-            "name": "❤️天扬旺旺秒播",
-            "type": 3,
-            "api": "./js/旺旺影视.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "旺旺影视",
-            "name": "❤️旺旺秒播XBPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/旺旺影视.json",
-            "jar": "./jar/xbpq.jar"
         },
         {
             "key": "cat_3Q",
@@ -401,12 +407,6 @@
             "changeable": 1,
             "filterable": 1,
             "ext": "http://cmstt.lyyytv.cn/api.php/app/"
-        },
-        {
-            "key": "py_农民",
-            "name": "🧡农民影视",
-            "type": 3,
-            "api": "./py/农民影视.py"
         },
         {
             "key": "vs",
