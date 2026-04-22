@@ -27,19 +27,12 @@
     ],
     "sites": [
         {
-            "key": "糯米",
-            "name": "❤️天扬影视秒播❤️",
+            "key": "csp_Guazi",
+            "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "csp_AweSomeGuard",
+            "api": "csp_Guazi",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Nmys"
-            },
-            "timeout": 10
+            "changeable": 1
         },
         {
             "key": "csp_Config",
@@ -101,14 +94,6 @@
             "switchable": 1
         },
         {
-            "key": "csp_Guazi",
-            "name": "❤️天扬瓜子秒播(稳定)",
-            "type": 3,
-            "api": "csp_Guazi",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Gz360",
             "name": "❤️天扬瓜子3K",
             "type": 3,
@@ -155,59 +140,6 @@
                 "versionCode": "10000",
                 "UMENG_CHANNEL": "zhuan"
             }
-        },
-        {
-            "key": "厂长",
-            "name": "❤️厂长直连(稳定)",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Czzy"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "文才",
-            "name": "❤️文才在线",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Jpys"
-            },
-            "timeout": 10
-        },
-        {
-            "key": "三秋影视",
-            "name": "❤️天扬三秋影视",
-            "type": 3,
-            "jar": "./jar/3q.jar;md5;d819b1d03d82966823a55522bf32b32a",
-            "api": "csp_App3Q"
-        },
-        {
-            "key": "热播",
-            "name": "❤️天扬热播秒播",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "TianTian",
-                "site": 0
-            },
-            "timeout": 10
         },
         {
             "key": "1905",
@@ -957,26 +889,6 @@
             "api": "./py/直播合集.py"
         },
         {
-            "key": "虎牙直播",
-            "name": "🐯虎牙直播",
-            "type": 3,
-            "hide": 0,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "Huya"
-            },
-            "timeout": 10
-        },
-        {
             "key": "drpy2_虎牙直播",
             "name": "🐯虎牙直播2",
             "type": 3,
@@ -1086,41 +998,11 @@
             "changeable": 1
         },
         {
-            "key": "星芽短剧",
-            "name": "💖星芽短剧",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "AppXY"
-            },
-            "timeout": 10
-        },
-        {
             "key": "qmdj",
             "name": "💖七猫短剧",
             "type": 3,
             "api": "./js/drpy8.min.js",
             "ext": "./js/七猫.js"
-        },
-        {
-            "key": "盒马短剧",
-            "name": "💖盒马短剧",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
-            "ext": {
-                "sp": "HeMa"
-            },
-            "timeout": 10
         },
         {
             "key": "csp_Jzb",
