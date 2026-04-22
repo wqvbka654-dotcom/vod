@@ -200,29 +200,19 @@
             "ext": "./json/喵TV.json"
         },
         {
-            "key": "秒播影院",
-            "name": "❤️秒播影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/秒播影院.json"
-        },
-        {
-            "key": "华",
-            "name": "❤️花树TV",
-            "type": 3,
-            "api": "./py/hs.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
             "key": "cat_3Q",
             "name": "❤️天扬3Q影视cat",
             "type": 3,
             "api": "./js/3Q影视.js"
+        },
+        {
+            "key": "界影PY",
+            "name": "❤️界影试",
+            "api": "./py/界影.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
         },
         {
             "key": "泥本地",
@@ -243,19 +233,23 @@
             "changeable": 1
         },
         {
-            "key": "人人PHP",
-            "name": "❤️天扬人人PHP",
-            "type": 4,
-            "api": "http://jiduo.3116598.xyz/PHP/rrsp.php",
-            "changeable": 1
-        },
-        {
             "key": "韩剧看看",
             "name": "❤️天扬韩剧看看",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "http://rihou.cc:88/xb/韩剧看看.json",
             "jar": "http://rihou.cc:88/jar/xbpq.jar"
+        },
+        {
+            "key": "华",
+            "name": "❤️花树TV",
+            "type": 3,
+            "api": "./py/hs.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
         },
         {
             "key": "wsycj",
@@ -407,62 +401,6 @@
             "changeable": 1,
             "filterable": 1,
             "ext": "http://cmstt.lyyytv.cn/api.php/app/"
-        },
-        {
-            "key": "vs",
-            "name": "🧡VS影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "ext": "./json/vs影视.json"
-        },
-        {
-            "key": "拖布",
-            "name": "🧡拖布影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/lge.jar;md5;3aa0ccb101c58030f6839d6aae7c0cf2",
-            "ext": "./json/拖布影视.json"
-        },
-        {
-            "key": "海龟JS",
-            "name": "💜海龟影视",
-            "type": 3,
-            "api": "./js/海龟.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "永乐Js",
-            "name": "💜永乐影视",
-            "type": 3,
-            "api": "./js/永乐.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "两个BTpy",
-            "name": "💜2BT",
-            "api": "./py/2bt.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
-        },
-        {
-            "key": "界影PY",
-            "name": "💜界影试",
-            "api": "./py/界影.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
         },
         {
             "key": "万佳TV",
