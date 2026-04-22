@@ -842,6 +842,13 @@
             "changeable": 1
         },
         {
+            "key": "xy",
+            "name": "💖星芽短剧💖",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/星芽.js"
+        },
+        {
             "key": "qmdj",
             "name": "💖七猫短剧",
             "type": 3,
