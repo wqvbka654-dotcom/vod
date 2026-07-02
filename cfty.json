@@ -168,7 +168,7 @@
         },
         {
             "key": "csp_Xxzn",
-            "name": "原盘-[盘搜]",
+            "name": "原盘需代理-[盘搜]",
             "type": 3,
             "api": "csp_Xxzn",
             "filterable": 1,
