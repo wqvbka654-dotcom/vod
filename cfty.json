@@ -176,8 +176,9 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "filters": "./json/xxzn.json",
-                "sites": "https://4kzn.com"
+                "filters": "./xxzn.json",
+                "sites": "https://4kzn.com",
+                "proxy": "proxy"
             }
         },
         {
