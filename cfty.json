@@ -1,0 +1,244 @@
+{
+    "spider": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/vox.png?metadata=eyJyIjoibWFpbiIsImZwIjoidm94LnBuZyIsInVpZCI6MTYyOTc0MTUsInBpZCI6NDU1MDA5NjUsInN0byI6ImdpdC1zaGFyZGluZy1zdG8tMTB0LTAyNyIsInJwIjoicmVwb3MvZWUvYTQvZWVhNDY1NDZmZDNiYWI2NDkxZGM0MzQ5MjI3ZjA3NTJmMjJmYTYyMGJmZDYzYjgwNDk4ZDIyMzBmMDhlNjNkNi5naXQiLCJpc3AiOnRydWUsImV4cGlyZV9hdCI6MTc4MzQzNTIwMH0&signature=Dbh_lUW6goP7yhDLqMap7cf4nP4dS2BiDupQyxZRovY;md5;412f8d175b032a824dc781b1fa8c46b0",
+    "notice": "",
+    "logo": "https://img1.tucang.cc/api/image/show/e1e010e963362a803772e929d601d9a4",
+    "sites": [
+        {
+            "key": "移动1",
+            "name": "推荐页-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/hcb9c/i.html"
+        },
+        {
+            "key": "移动2",
+            "name": "盘搜手机榜单-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://nostr.aws.dpdns.org/"
+        },
+        {
+            "key": "csp_Config",
+            "name": "🧡网盘配制🧡[配制]",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "自适应影视库",
+            "name": "盘搜自适应榜单-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/hc500/i.html"
+        },
+        {
+            "key": "聚合",
+            "name": "玩偶聚合搜-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://wo26.vivas.cc.cd"
+        },
+        {
+            "key": "po",
+            "name": "POMO-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://pomo.920410.xyz/"
+        },
+        {
+            "key": "盘链",
+            "name": "盘链-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://pl-d8z.pages.dev/"
+        },
+        {
+            "key": "榜单",
+            "name": "榜单搜-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/h9j0d/i.html"
+        },
+        {
+            "key": "123社区",
+            "name": "123社区-[盘搜]",
+            "type": 3,
+            "timeout": 60,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_Pan123Fx",
+            "ext": {
+                "cookie": "",
+                "filters": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan123fx.json",
+                "comment": ""
+            }
+        },
+        {
+            "key": "哔html",
+            "name": "哔哩哔哩-[B站]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://bili-1k4.pages.dev/"
+        },
+        {
+            "key": "虎牙",
+            "name": "虎牙直播-[直播]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/h3zup/i.html"
+        },
+        {
+            "key": "油",
+            "name": "油管",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://yt.9988526.xyz/"
+        },
+        {
+            "key": "py秒播",
+            "name": "天扬影视-[秒播]",
+            "type": 3,
+            "api": "./秒播影视.py"
+        },
+        {
+            "key": "py秒播瓜子",
+            "name": "瓜子-[秒播]",
+            "type": 3,
+            "api": "./瓜子.py"
+        },
+        {
+            "name": "大-[秒播]",
+            "key": "夏",
+            "type": 3,
+            "jar": "https://zl.wpscdn.cn/2026/07/11/space_img/64dea739-dfa3-4797-b25a-68c47f222e0a.png;md5;dd6fbafde59756e7f5043a20c74b1961",
+            "api": "csp_NewGrV2Amns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "e5f15714a2413f05151fea686450950ace809216b88f37b7b1fb4f1ce80eff9fab1b6be3fd1f9df9a5a915365aefecb314d297b5e1747337c20236c3637c2aeaebfce371e9053be3898bb20a9ef20bbf13173fb2ad38b4474346328a3a354451a1b5f96c490cc09840a195bc498f9e11499df11b3946e58e4c705a8457521ed34c879c458a9b27e487496c7a63a7ca8b34133bca4943b0019d982462cc22294e7c4ab447899b0e8bc667c7e635e8291fa544e8e28d8b16b8b702912f2d5ec561e1fb8667cc44bef7cae73f5022c94518cb7f0845d772d44944a88ff71d9a562a6204729a8f1b00c81ba195664482e756859f12048f73e986ad3bb6584935696dff959b0f82055f23d94f6a935103b574a98d54079a0be6647fcaca4db0d177ac3004eb51819a8e539646a141"
+        },
+        {
+            "key": "py枫叶",
+            "name": "道-[秒播]",
+            "type": 3,
+            "api": "./枫叶.py"
+        },
+        {
+            "key": "cat_金牌",
+            "name": "至-[秒播]",
+            "type": 3,
+            "api": "./金牌cat.js",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "简-[秒播]",
+            "type": 3,
+            "api": "./荐片.js"
+        },
+        {
+            "key": "三秋影视",
+            "name": "3Q-[秒播]",
+            "type": 3,
+            "jar": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/xs.gif?metadata=eyJyIjoibWFpbiIsImZwIjoieHMuZ2lmIiwidWlkIjoxNjI5NzQxNSwicGlkIjo0NTUwMDk2NSwic3RvIjoiZ2l0LXNoYXJkaW5nLXN0by0xMHQtMDI3IiwicnAiOiJyZXBvcy9lZS9hNC9lZWE0NjU0NmZkM2JhYjY0OTFkYzQzNDkyMjdmMDc1MmYyMmZhNjIwYmZkNjNiODA0OThkMjIzMGYwOGU2M2Q2LmdpdCIsImlzcCI6dHJ1ZSwiZXhwaXJlX2F0IjoxNzgyMzgwNDAwfQ&signature=eYQiRHMx1bwqVKz6_n-JaKqC2l7dq4iWYz83WLUBgdI;md5;f24b4b3728c8e67edf417c3078efec12",
+            "api": "csp_App3Q"
+        },
+        {
+            "key": "长",
+            "name": "厂长-[秒播]",
+            "type": 3,
+            "api": "csp_NewCzGuard",
+            "jar": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/fan.png?metadata=eyJyIjoibWFpbiIsImZwIjoiZmFuLnBuZyIsInVpZCI6MTYyOTc0MTUsInBpZCI6NDU1MDA5NjUsInN0byI6ImdpdC1zaGFyZGluZy1zdG8tMTB0LTAyNyIsInJwIjoicmVwb3MvZWUvYTQvZWVhNDY1NDZmZDNiYWI2NDkxZGM0MzQ5MjI3ZjA3NTJmMjJmYTYyMGJmZDYzYjgwNDk4ZDIyMzBmMDhlNjNkNi5naXQiLCJpc3AiOnRydWUsImV4cGlyZV9hdCI6MTc4MjU1MDIwMH0&signature=prZbl8API64Kyz7CbYX08b_P72qjVQLk0-s2y93f3cI;md5;c1bb8166a36306e250f791897717deb0",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "dj",
+            "name": "短剧-[短剧]",
+            "type": 3,
+            "jar": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/xs.gif?metadata=eyJyIjoibWFpbiIsImZwIjoieHMuZ2lmIiwidWlkIjoxNjI5NzQxNSwicGlkIjo0NTUwMDk2NSwic3RvIjoiZ2l0LXNoYXJkaW5nLXN0by0xMHQtMDI3IiwicnAiOiJyZXBvcy9lZS9hNC9lZWE0NjU0NmZkM2JhYjY0OTFkYzQzNDkyMjdmMDc1MmYyMmZhNjIwYmZkNjNiODA0OThkMjIzMGYwOGU2M2Q2LmdpdCIsImlzcCI6dHJ1ZSwiZXhwaXJlX2F0IjoxNzgyMzgwNDAwfQ&signature=eYQiRHMx1bwqVKz6_n-JaKqC2l7dq4iWYz83WLUBgdI;md5;f24b4b3728c8e67edf417c3078efec12",
+            "api": "csp_HemaDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
+        },
+        {
+            "key": "py_短剧",
+            "name": "短剧2-[短剧]",
+            "type": 3,
+            "api": "./短剧合集.py"
+        },
+        {
+            "key": "xy",
+            "name": "星芽-[短剧]",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./星芽.js"
+        },
+        {
+            "key": "qmdj",
+            "name": "七猫-[短剧]",
+            "type": 3,
+            "api": "./drpy8.min.js",
+            "ext": "./七猫.js"
+        },
+        {
+            "key": "网音",
+            "name": "网音-[音乐]",
+            "type": 3,
+            "jar": "https://zl.wpscdn.cn/2026/07/07/space_img/62cbaa74-b67b-4097-b8d3-a2d169f48a0e.jpg;md5;cc4f45deda39564e41b80ba7b921718b",
+            "api": "csp_MusicGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_酷音乐",
+            "name": "酷音-[音乐]",
+            "type": 3,
+            "api": "./哭我.py"
+        },
+        {
+            "key": "csp_Bili",
+            "name": "哔哩-[B站]",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./bili.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🖤TYTV🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
+        }
+    ]
+}
