@@ -1,0 +1,221 @@
+{
+    "spider": "https://cnb.cool/hjcfty/ty/-/git/raw/main/vox.jar;md5;9113227297953de08c0bd412e1064748",
+    "notice": "",
+    "logo": "https://img1.tucang.cc/api/image/show/e1e010e963362a803772e929d601d9a4",
+    "sites": [
+        {
+            "key": "移动1",
+            "name": "推荐页-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/hcb9c/i.html"
+        },
+        {
+            "key": "移动2",
+            "name": "盘搜手机榜单-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://nostr.aws.dpdns.org/"
+        },
+        {
+            "key": "csp_Config",
+            "name": "🧡网盘配制🧡[配制]",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "自适应影视库",
+            "name": "盘搜自适应榜单-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/hc500/i.html"
+        },
+        {
+            "key": "聚合",
+            "name": "玩偶聚合搜-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://wo26.vivas.cc.cd"
+        },
+        {
+            "key": "po",
+            "name": "POMO-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://pomo.920410.xyz/"
+        },
+        {
+            "key": "盘链",
+            "name": "盘链-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://pl-d8z.pages.dev/"
+        },
+        {
+            "key": "榜单",
+            "name": "榜单搜-[盘搜]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/h9j0d/i.html"
+        },
+        {
+            "key": "123社区",
+            "name": "123社区-[盘搜]",
+            "type": 3,
+            "timeout": 60,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_Pan123Fx",
+            "ext": {
+                "cookie": "",
+                "filters": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/pan123fx.json",
+                "comment": ""
+            }
+        },
+        {
+            "key": "哔html",
+            "name": "哔哩哔哩-[B站]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://bili-1k4.pages.dev/"
+        },
+        {
+            "key": "虎牙",
+            "name": "虎牙直播-[直播]",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://sps.yy-gp.com/h3zup/i.html"
+        },
+        {
+            "key": "油",
+            "name": "油管",
+            "type": 3,
+            "api": "csp_Nostr",
+            "homePage": "https://yt-cas.pages.dev/"
+        },
+        {
+            "key": "py秒播",
+            "name": "天扬影视-[秒播]",
+            "type": 3,
+            "api": "./秒播影视.py"
+        },
+        {
+            "key": "py秒播瓜子",
+            "name": "瓜子-[秒播]",
+            "type": 3,
+            "api": "./瓜子.py"
+        },
+        {
+            "key": "py枫叶",
+            "name": "枫叶-[秒播]",
+            "type": 3,
+            "api": "./枫叶.py"
+        },
+        {
+            "key": "cat_金牌",
+            "name": "金牌-[秒播]",
+            "type": 3,
+            "api": "./金牌cat.js",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "荐片-[秒播]",
+            "type": 3,
+            "api": "./荐片.js"
+        },
+        {
+            "key": "三秋影视",
+            "name": "3Q-[秒播]",
+            "type": 3,
+            "jar": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/xs.gif?metadata=eyJyIjoibWFpbiIsImZwIjoieHMuZ2lmIiwidWlkIjoxNjI5NzQxNSwicGlkIjo0NTUwMDk2NSwic3RvIjoiZ2l0LXNoYXJkaW5nLXN0by0xMHQtMDI3IiwicnAiOiJyZXBvcy9lZS9hNC9lZWE0NjU0NmZkM2JhYjY0OTFkYzQzNDkyMjdmMDc1MmYyMmZhNjIwYmZkNjNiODA0OThkMjIzMGYwOGU2M2Q2LmdpdCIsImlzcCI6dHJ1ZSwiZXhwaXJlX2F0IjoxNzgyMzgwNDAwfQ&signature=eYQiRHMx1bwqVKz6_n-JaKqC2l7dq4iWYz83WLUBgdI;md5;f24b4b3728c8e67edf417c3078efec12",
+            "api": "csp_App3Q"
+        },
+        {
+            "key": "dj",
+            "name": "短剧-[短剧]",
+            "type": 3,
+            "jar": "https://raw.giteeusercontent.com/cfty654/vod/raw/main/xs.gif?metadata=eyJyIjoibWFpbiIsImZwIjoieHMuZ2lmIiwidWlkIjoxNjI5NzQxNSwicGlkIjo0NTUwMDk2NSwic3RvIjoiZ2l0LXNoYXJkaW5nLXN0by0xMHQtMDI3IiwicnAiOiJyZXBvcy9lZS9hNC9lZWE0NjU0NmZkM2JhYjY0OTFkYzQzNDkyMjdmMDc1MmYyMmZhNjIwYmZkNjNiODA0OThkMjIzMGYwOGU2M2Q2LmdpdCIsImlzcCI6dHJ1ZSwiZXhwaXJlX2F0IjoxNzgyMzgwNDAwfQ&signature=eYQiRHMx1bwqVKz6_n-JaKqC2l7dq4iWYz83WLUBgdI;md5;f24b4b3728c8e67edf417c3078efec12",
+            "api": "csp_HemaDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
+        },
+        {
+            "key": "py_短剧",
+            "name": "短剧2-[短剧]",
+            "type": 3,
+            "api": "./短剧合集.py"
+        },
+        {
+            "key": "xy",
+            "name": "星芽-[短剧]",
+            "type": 3,
+            "api": "./drpy2.min.js",
+            "ext": "./星芽.js"
+        },
+        {
+            "key": "qmdj",
+            "name": "七猫-[短剧]",
+            "type": 3,
+            "api": "./drpy8.min.js",
+            "ext": "./七猫.js"
+        },
+        {
+            "key": "网音",
+            "name": "网音-[音乐]",
+            "type": 3,
+            "jar": "https://zl.wpscdn.cn/2026/07/07/space_img/62cbaa74-b67b-4097-b8d3-a2d169f48a0e.jpg;md5;cc4f45deda39564e41b80ba7b921718b",
+            "api": "csp_MusicGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_酷音乐",
+            "name": "酷音-[音乐]",
+            "type": 3,
+            "api": "./哭我.py"
+        },
+        {
+            "key": "csp_Bili",
+            "name": "哔哩-[B站]",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./bili.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🖤TYTV🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
+        }
+    ]
+}
